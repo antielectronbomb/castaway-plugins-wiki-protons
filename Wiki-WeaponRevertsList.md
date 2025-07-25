@@ -7,6 +7,8 @@
 
 ## General & Miscellaneous Console Variables
 
+[[Back to top]](https://github.com/rsedxcftvgyhbujnkiqwe/castaway-plugins/wiki/Weapon-Revert-List#contents)
+
 | **Setting Name**                      | **Cvar Key**                           | **Default Value** | **Description**                                                                             | **References**                                                                                                                 |
 | ------------------------------------- | -------------------------------------- | ----------------- | ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
 | Enable plugin                         | sm_reverts\_\_enable                   | 1                 | Enables the weapon reverts plugin                                                           | n/a                                                                                                                            |
@@ -17,6 +19,8 @@
 | Disable loadout changes information   | sm_reverts\_\_no_reverts_info_on_spawn | 0                 | Disable loadout change reverts info by default                                              | n/a                                                                                                                            |
 
 ## Weapon Reverts List
+
+[[Back to top]](https://github.com/rsedxcftvgyhbujnkiqwe/castaway-plugins/wiki/Weapon-Revert-List#contents)
 
 | **Item Name**                          | **Cvar Key** _(sm_reverts\_\_item\_\<key\>)_ | **Cvar Value** | **Description**                                                                                                                                                                                        | **References**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 | -------------------------------------- | -------------------------------------------- | -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -139,9 +143,9 @@
 | Wrangler                               | wrangler                                     | 1              | Reverted to pre-gunmettle, fully repair and refill while shield is up, sentry active in 1 second dying                                                                                                 | [Wiki](https://web.archive.org/web/20250701064943/https://wiki.teamfortress.com/w/index.php?title=Wrangler&oldid=1922216),<br>[Shield duration](https://www.youtube.com/watch?v=aGKTtS2zajw)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | Your Eternal Reward                    | eternal                                      | 1              | Reverted to pre-inferno, cannot disguise, no cloak drain penalty                                                                                                                                       | [Wiki](https://wiki.teamfortress.com/w/index.php?title=Your_Eternal_Reward&oldid=2275673)<br>_Note: It is recommended to turn on the Saharan Spy item set bonus revert to make this weapon revert fun to use._                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 
-[[Back to top]](https://github.com/rsedxcftvgyhbujnkiqwe/castaway-plugins/wiki/Weapon-Revert-List#contents)
-
 ## Item Sets Reverts List
+
+[[Back to top]](https://github.com/rsedxcftvgyhbujnkiqwe/castaway-plugins/wiki/Weapon-Revert-List#contents)
 
 **_Note: All reverted Item Sets DO NOT REQUIRE their corresponding cosmetic hats, because hat crafting is locked behind a paywall for F2P players. Players only need to equip the set weapons._**
 
@@ -157,9 +161,9 @@
 | Saharan Spy (Variant 1) |                                              | 2              | Restored release item set bonus, quiet decloak, 0.5s longer cloak blink time. Equip the L'Etranger and YER (or Wanga Prick) to gain the bonus, the hat is not required      | _Historically inaccurate, Wanga Prick never activated the set bonus_                                                                                                                                                     |
 | Special Delivery (set)  | spdelivery                                   | 1              | Restored release item set bonus, +25 max health. Equip the Shortstop, Mad Milk and Holy Mackerel to gain the bonus, the hat is not required                                 | [Wiki](<https://wiki.teamfortress.com/w/index.php?title=Special_Delivery_(item_set)&oldid=1322114>)<br> Milkman hat was historically required for the item set bonus.                                                    |
 
-[[Back to top]](https://github.com/rsedxcftvgyhbujnkiqwe/castaway-plugins/wiki/Weapon-Revert-List#contents)
-
 ## See also
+
+[[Back to top]](https://github.com/rsedxcftvgyhbujnkiqwe/castaway-plugins/wiki/Weapon-Revert-List#contents)
 
 - [Weapon Reverts Plugin Changelog](https://github.com/rsedxcftvgyhbujnkiqwe/castaway-plugins/wiki/Weapon-Reverts-Changelog)
 - [Weapon Reverts Config Presets](https://github.com/rsedxcftvgyhbujnkiqwe/castaway-plugins/wiki/Weapon-Reverts-Config-Presets)
