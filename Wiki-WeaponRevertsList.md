@@ -3,6 +3,7 @@
 > - [General & Miscellaneous Console Variables](https://github.com/rsedxcftvgyhbujnkiqwe/castaway-plugins/wiki/Weapon-Revert-List#general--miscellaneous-console-variables)
 > - [Weapon Reverts List](https://github.com/rsedxcftvgyhbujnkiqwe/castaway-plugins/wiki/Weapon-Revert-List#weapon-reverts-list)
 > - [Item Sets Reverts List](https://github.com/rsedxcftvgyhbujnkiqwe/castaway-plugins/wiki/Weapon-Revert-List#item-sets-reverts-list)
+> - [See also](https://github.com/rsedxcftvgyhbujnkiqwe/castaway-plugins/wiki/Weapon-Revert-List#see-also)
 
 ## General & Miscellaneous Console Variables
 
@@ -146,3 +147,9 @@
 | Saharan Spy             | saharan                                      | 1              | Restored release item set bonus, quiet decloak, 0.5s longer cloak blink time. Equip the L'Etranger (removes +40% cloak) and YER to gain the bonus, the hat is not required. | [Wiki](https://wiki.teamfortress.com/w/index.php?title=Saharan_Spy&oldid=1380397)<br> Familiar Fez hat was historically required for the item set bonus.<br> Pre-2017 YER used to have synergy with this item set bonus. |
 | Saharan Spy (Variant 1) |                                              | 2              | Restored release item set bonus, quiet decloak, 0.5s longer cloak blink time. Equip the L'Etranger and YER (or Wanga Prick) to gain the bonus, the hat is not required      | _Historically inaccurate, Wanga Prick never activated the set bonus_                                                                                                                                                     |
 | Special Delivery (set)  | spdelivery                                   | 1              | Restored release item set bonus, +25 max health. Equip the Shortstop, Mad Milk and Holy Mackerel to gain the bonus, the hat is not required                                 | [Wiki](<https://wiki.teamfortress.com/w/index.php?title=Special_Delivery_(item_set)&oldid=1322114>)<br> Milkman hat was historically required for the item set bonus.                                                    |
+
+## See also
+* [Weapon Reverts Plugin Changelog](https://github.com/rsedxcftvgyhbujnkiqwe/castaway-plugins/wiki/Weapon-Reverts-Changelog)
+* [Weapon Reverts Config Presets](https://github.com/rsedxcftvgyhbujnkiqwe/castaway-plugins/wiki/Weapon-Reverts-Config-Presets)
+* [Introduction to Weapon Reverts Plugin](https://github.com/rsedxcftvgyhbujnkiqwe/castaway-plugins/wiki/Weapon-Reverts-(reverts.sp))
+* [Castaway Server CVars](https://github.com/rsedxcftvgyhbujnkiqwe/castaway-plugins/wiki/Castaway-Server-CVars)
