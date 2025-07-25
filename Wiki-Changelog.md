@@ -21,6 +21,57 @@
 
 ## Changelog
 
+### July 24, 2025
+- **Added release Mad Milk revert**
+  - *The Mad Milk*
+    - Players heal 75% of the damage done to an enemy covered with milk.
+    - Can be used to extinguish fires. (does not reduce cooldown)
+- **Added reverts for Cow Mangler 5000**
+  - *Release Cow Mangler 5000*
+    - 5 shots in clip (Full reload time average: ~4.93 seconds)
+    - Cannot be crit-boosted
+    - No random critical hits
+  - *Pre-Summer Event 2013 Cow Mangler 5000*
+    - 5 shots in clip (Full reload time average: ~5.14 seconds)
+    - Cannot be crit-boosted
+    - -10% dmg penalty
+    - 5% slower reload time
+    - No random critical hits
+- **Added revert variants for Sydney Sleeper**
+  - *Pre-Gun Mettle Sydney Sleeper*
+    - +25% charge rate
+    - On Hit: Jarate applied to target for 8 seconds
+    - No random critical hits
+    - No headshots and no headshot bonuses
+  - *Release Sydney Sleeper*
+    - No charge rate increase. Same charge rate as Stock Sniper Rifle
+    - On Hit: Jarate applied to target for 8 seconds, even against UberCharged enemies.
+    - Random critical hits enabled*
+    - No headshots and no headshot bonuses
+    - Penetrates enemy players at 100% charge**
+      - *The random crit mechanic and its not accurate - the random crits don't follow crit ramp-up mechanics
+      - **According to old Wiki pages the release Sydney Sleeper should penetrate when above 75% charge, but the Machina attribute is used for now
+- **Added pre-Gun Mettle Natascha variant**
+  - *Pre-Gun Mettle Natascha*
+    - On Hit: 100% chance to slow target (no distance falloff)
+    - +50% max primary ammo on wearer
+    - -25% damage penalty
+    - 30% slower spin up time
+    - No damage resistance when spun up
+- **Added pre-Blue Moon Atomizer variant**
+  - *Pre-Blue Moon Atomizer*
+    - Grants Triple Jump while deployed. (does not have to be fully deployed)
+    - Melee attacks mini-crit while airborne.
+    - -15% damage vs players
+    - This weapon deploys 50% slower
+- **Reverted Short Circuit now has particle effects for destroying projectiles.**
+- **Reverted Short Circuit now destroys Crusader's Crossbow bolts and Dragon's Fury fireballs.**
+- **Reverted Pomson 6000 and Righteous Bison changes:** 
+	- No longer ignores the Fists of Steel ranged damage resistance and also now deals knock-back on hit to enemies.
+	- Both weapons' projectiles no longer collides with other projectiles.
+- **Updated Traditional Chinese localization file.**
+- **Renamed `sm_reverts__extras` to `sm_reverts__show_moonshot` and added a toggle for it in the reverts menu.**
+
 ### July 14, 2025
 - **Changed pre-Gun Mettle Short Circuit alt-fire behavior and fixed not being switched when run out of metal (however, it causes client prediction issues with alt-fire).**
 - **Fixed Pre-Gun Mettle Pomson 6000 projectiles not passing through friendly buildings. Its projectiles should now pass through friendly buildings as it was historically.**
