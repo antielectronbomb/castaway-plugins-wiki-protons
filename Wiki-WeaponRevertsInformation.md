@@ -22,6 +22,7 @@ Additionally, certain weapons have different variants for reverting to different
 
 ## Installation and Set-up
 Before installing the Weapon Reverts plug-in, first make sure the following dependencies are installed first in your server:
+
 ### Dependencies
 - 32 bit server/sourcemod - 64 bit not currently supported
 - [TF2Items](https://github.com/nosoop/SMExt-TF2Items)
@@ -45,24 +46,40 @@ sm_reverts__item_<name> 0/1/2/etc.
 - 3: Variant #2
 - etc.
 
-To get the name to use, consult [reverts.sp](https://github.com/rsedxcftvgyhbujnkiqwe/castaway-plugins/blob/master/scripting/reverts.sp) and scroll down to the `ItemDefine` block. You will find lines like this:
+To get the name to use, consult the [reverts.sp](https://github.com/rsedxcftvgyhbujnkiqwe/castaway-plugins/blob/master/scripting/reverts.sp) file and scroll down to the `ItemDefine` block. You will find lines like this:
 ```sourcepawn
-ItemDefine("Ambassador", "ambassador", "Reverted to pre-inferno, deals full headshot damage (102) at all ranges", CLASSFLAG_SPY, Wep_Ambassador);
+ItemDefine("ambassador", "Ambassador_PreJI", CLASSFLAG_SPY, Wep_Ambassador);
 ```
-The second parameter, in this case "ambassador", will be used for the cvar. So, to disable the ambassador revert, you would do the following in your `reverts.cfg`:
+The first parameter, in this case "ambassador", will be used for the cvar.
+ 
+The second parameter, in this case "Ambassador_PreJI", is the weapon revert description parameter. 
+
+To know the full description, find the [reverts.phrases.txt](https://github.com/rsedxcftvgyhbujnkiqwe/castaway-plugins/blob/master/translations/reverts.phrases.txt) file located in the `translations` folder and scroll down until you find lines like this which also contains `Ambassador_PreJI`:
+```sourcepawn
+"Ambassador_PreJI"
+{
+	"en"	"Reverted to pre-inferno, deals full headshot damage (102) at all ranges"
+}
+```
+You may also find out what each weapon revert does by checking the full weapon reverts descriptions from the [repository's Wiki complete with references](https://github.com/rsedxcftvgyhbujnkiqwe/castaway-plugins/wiki/Weapon-Revert-List)
+
+So, to disable the ambassador revert, you would do the following in your `reverts.cfg`:
 ```cfg
 sm_reverts__item_ambassador 0
 ```
-All weapon reverts are defined in the `ItemDefine` block, so you can use it as a quick check to see all available reverts.
+All weapon reverts are defined in the `ItemDefine` block in the `reverts.sp` file and in the `reverts.phrases.txt` file, so you can use these as a quick check to see all available reverts.
+
+If you want to use weapon reverts presets to use for your `reverts.cfg` file, check out [Server Config Presets](https://github.com/rsedxcftvgyhbujnkiqwe/castaway-plugins/wiki/Weapon-Reverts-Config-Presets). Essentially, you copy the presets' lines into the `reverts.cfg` file so it runs every time you start or change a map in the server.
+
 ### Variants
 Some weapons have variants. Variants can be controlled by setting the cvar to a number greater than 1. As of writing this, no item has more than 1 variant, meaning you'll only need to put 2 at most for given item.
 
 Example:
 ```sourcepawn
-ItemDefine("Axtinguisher", "axtinguish", "Reverted to pre-love&war, always deals 195 damage crits to burning targets, no speedboost on kill", CLASSFLAG_PYRO, Wep_Axtinguisher);
-ItemVariant(Wep_Axtinguisher, "Reverted to pre-toughbreak, crits from behind, minicrits from front, no speedboost on kill");
+ItemDefine("axtinguish", "Axtinguisher_PreLW", CLASSFLAG_PYRO, Wep_Axtinguisher);
+ItemVariant(Wep_Axtinguisher, "Axtinguisher_PreTB");
 ```
-This means that the Axtinguisher has one variant. The base version, the one shown in the `ItemDefine`, is variant 0, which means you don't need to set anything to use it. Although it's redundant, the cvar would look like this:
+This means that the Axtinguisher has one variant along with its base version. The base version, the one shown in the `ItemDefine`, is variant 0, which means you don't need to set anything to use it. Although it's redundant, the cvar would look like this:
 ```cfg
 sm_reverts__item_axtinguisher 1
 ```
@@ -72,6 +89,7 @@ In this case, the variant has a value of 1, meaning to use it you would set the 
 ```cfg
 sm_reverts__item_axtinguisher 2
 ```
+
 ### Compiling
 By default the plugin will compile for Linux, and will work on Linux servers with no additional adjustments. 
 
@@ -101,6 +119,8 @@ Alternatively, you can simply pass `NO_MEMPATCHES=` as a command line argument w
 - Quick-Fix
 - Wrangler
 - Rescue Ranger
+- Mad Milk
+
 ## Contributing/Modding
 There are a few things to note if you want to set up a new weapon revert or variant.
 
@@ -115,7 +135,7 @@ Near the top there is an enum used for identifying weapons for use later in the 
 To actually initialize the weapon you'll need an `ItemDefine` call. There's a block in `OnPluginStart` where these are all performed. Also preferably alphabetized. 
 ItemDefine params:
 1. Name of the revert. Used in any info like chat messages or console info dumps
-2. Revert cvar identifier. This is used for the name of the cvar that can be used to toggle the revert on/off
+2. Revert cvar identifier. This is used for the name of the cvar that can be used to toggle the revert on/off. 
 3. Description. Preferably include the time period of the revert, describes what exactly the revert does
 4. Class Flags. This identifies which weapon this revert is for. Used for revert info dumping
 5. Weapon Enum
@@ -128,20 +148,43 @@ ItemVariant params:
 
 This section is where you set the actual attributes for your reverted weapon.
 
-When adding a new item, make sure to get the weapon's index. It can be found in `tf/scripts/item/items_game.txt`, though there is a helpful page on the AlliedModder's wiki which lists all item indexes in a more readable and searchable format. [Link to the AlliedModders page](https://wiki.alliedmods.net/Team_fortress_2_item_definition_indexes). Note that weapon reskins, and sometimes different weapon qualities, will be considered different indexes, so ensure you note down all of them.
+When adding a new item, make sure to get the weapon's index. It can be found in `tf/scripts/item/items_game.txt`, though there is [a helpful page on the AlliedModder's wiki](https://wiki.alliedmods.net/Team_fortress_2_item_definition_indexes) which lists all item indexes in a more readable and searchable format. Note that weapon reskins, and sometimes different weapon qualities, will be considered different indexes, so ensure you note down all of them.
+
+For item attributes (which are the properties a weapon has like firing rate), you can also find attributes from `tf/scripts/item/items_game.txt` but it is much easier to find attributes from the [item attributes list page on the TF2 Wiki](https://wiki.teamfortress.com/wiki/List_of_item_attributes).
 
 Make sure to follow the pattern provided by the other items, set the `NumAttributes` correctly, and ensure the indexes in `SetAttribute` are unique. 
 
-The following is what a well formed attribute block looks like:
+The following is what a well formed attribute block with multiple variants looks like:
 ```sourcepawn
-case 450: { if (ItemIsEnabled(Wep_Atomizer)) {
-	item1 = TF2Items_CreateItem(0);
-	TF2Items_SetFlags(item1, (OVERRIDE_ATTRIBUTES|PRESERVE_ATTRIBUTES));
-	TF2Items_SetNumAttributes(item1, 4);
-	TF2Items_SetAttribute(item1, 0, 5, 1.30); // fire rate penalty
-	TF2Items_SetAttribute(item1, 1, 138, 0.80); // dmg penalty vs players
-	TF2Items_SetAttribute(item1, 2, 250, 0.0); // air dash count
-	TF2Items_SetAttribute(item1, 3, 773, 1.0); // single wep deploy time increased
+case 40, 1146: { if (ItemIsEnabled(Wep_Backburner)) {
+	switch (GetItemVariant(Wep_Backburner)) {
+		case 0: {
+			TF2Items_SetNumAttributes(itemNew, 1);
+			TF2Items_SetAttribute(itemNew, 0, 2, 1.1); // 10% damage bonus; mult_dmg
+		}
+		case 1: {
+			TF2Items_SetNumAttributes(itemNew, 2);
+			TF2Items_SetAttribute(itemNew, 0, 2, 1.2); // 20% damage bonus
+			TF2Items_SetAttribute(itemNew, 1, 356, 1.0); // no airblast; airblast_disabled
+		}
+		case 2: {
+			TF2Items_SetNumAttributes(itemNew, 2);
+			TF2Items_SetAttribute(itemNew, 0, 26, 50.0); // +50 max health on wearer; add_maxhealth
+			TF2Items_SetAttribute(itemNew, 1, 356, 1.0); // no airblast; airblast_disabled
+		}
+	}
+}}
+```
+
+For a weapon with only a base revert, here is how a well formed attribute block looks like:
+```sourcepawn
+case 310: { if (ItemIsEnabled(Wep_WarriorSpirit)) {
+	TF2Items_SetNumAttributes(itemNew, 5);
+	TF2Items_SetAttribute(itemNew, 0, 412, 1.0); // damage vuln
+	TF2Items_SetAttribute(itemNew, 1, 180, 0.0); // heal on kill
+	TF2Items_SetAttribute(itemNew, 2, 110, 10.0); // heal on hit
+	TF2Items_SetAttribute(itemNew, 3, 128, 0.0); // provide on active
+	TF2Items_SetAttribute(itemNew, 4, 125, -20.0); // max health additive penalty
 }}
 ```
 
@@ -174,7 +217,7 @@ if(
 
 Item Variants can be acquired with `GetItemVariant`. This returns one less than the value of the cvar, which means that a value of `0` would be the base weapon with no variant, and a value of `1` would mean the first variant is active. This can be used in place of ItemIsEnabled if a weapon has variants.
 
-Below is an example of checking for the base revert of the Soda Popper, the non-variant:
+Below is an example of checking for the base revert version of the Soda Popper, the non-variant:
 ```sourcepawn
 if (
 	GetItemVariant(Wep_SodaPopper) == 0 &&
