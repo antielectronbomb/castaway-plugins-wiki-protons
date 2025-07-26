@@ -1,3 +1,5 @@
+**CTRL+F IS YOUR FRIEND! Use it!**
+
 > ### Contents
 >
 > - [General & Miscellaneous Console Variables](https://github.com/rsedxcftvgyhbujnkiqwe/castaway-plugins/wiki/Weapon-Revert-List#general--miscellaneous-console-variables)
@@ -8,6 +10,8 @@
 ## General & Miscellaneous Console Variables
 
 [[Back to top]](https://github.com/rsedxcftvgyhbujnkiqwe/castaway-plugins/wiki/Weapon-Revert-List#contents)
+[[Go to previous section]](https://github.com/rsedxcftvgyhbujnkiqwe/castaway-plugins/wiki/Weapon-Revert-List#contents)
+[[Go to next section]](https://github.com/rsedxcftvgyhbujnkiqwe/castaway-plugins/wiki/Weapon-Revert-List#weapon-reverts-list)
 
 | **Setting Name**                      | **Cvar Key**                           | **Default Value** | **Description**                                                                             | **References**                                                                                                                 |
 | ------------------------------------- | -------------------------------------- | ----------------- | ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
@@ -21,6 +25,8 @@
 ## Weapon Reverts List
 
 [[Back to top]](https://github.com/rsedxcftvgyhbujnkiqwe/castaway-plugins/wiki/Weapon-Revert-List#contents)
+[[Go to previous section]](https://github.com/rsedxcftvgyhbujnkiqwe/castaway-plugins/wiki/Weapon-Revert-List#general--miscellaneous-console-variables)
+[[Go to next section]](https://github.com/rsedxcftvgyhbujnkiqwe/castaway-plugins/wiki/Weapon-Revert-List#item-sets-reverts-list)
 
 | **Item Name**                          | **Cvar Key** _(sm_reverts\_\_item\_\<key\>)_ | **Cvar Value** | **Description**                                                                                                                                                                                        | **References**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 | -------------------------------------- | -------------------------------------------- | -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -151,6 +157,8 @@
 ## Item Sets Reverts List
 
 [[Back to top]](https://github.com/rsedxcftvgyhbujnkiqwe/castaway-plugins/wiki/Weapon-Revert-List#contents)
+[[Go to previous section]](https://github.com/rsedxcftvgyhbujnkiqwe/castaway-plugins/wiki/Weapon-Revert-List#weapon-reverts-list)
+[[Go to next section]](https://github.com/rsedxcftvgyhbujnkiqwe/castaway-plugins/wiki/Weapon-Revert-List#see-also)
 
 **_Note: All reverted Item Sets DO NOT REQUIRE their corresponding cosmetic hats, because hat crafting is locked behind a paywall for F2P players. Players only need to equip the set weapons._**
 
@@ -169,6 +177,7 @@
 ## See also
 
 [[Back to top]](https://github.com/rsedxcftvgyhbujnkiqwe/castaway-plugins/wiki/Weapon-Revert-List#contents)
+[[Go to previous section]](https://github.com/rsedxcftvgyhbujnkiqwe/castaway-plugins/wiki/Weapon-Revert-List#item-sets-reverts-list)
 
 - [Weapon Reverts Plugin Changelog](https://github.com/rsedxcftvgyhbujnkiqwe/castaway-plugins/wiki/Weapon-Reverts-Changelog)
 - [Weapon Reverts Config Presets](https://github.com/rsedxcftvgyhbujnkiqwe/castaway-plugins/wiki/Weapon-Reverts-Config-Presets)
