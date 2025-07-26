@@ -1,5 +1,5 @@
 ## Purpose
-[File can be found here](https://github.com/rsedxcftvgyhbujnkiqwe/castaway-plugins/blob/master/scripting/reverts.sp)
+[Weapon Reverts Plugin File (reverts.sp) can be found here](https://github.com/rsedxcftvgyhbujnkiqwe/castaway-plugins/blob/master/scripting/reverts.sp)
 
 This plugin is the main feature of this repo. It features weapon reverts to various eras, in hopes of getting weapons in their most fun state.
 
