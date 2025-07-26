@@ -18,57 +18,109 @@
 > * [December 2024](https://github.com/rsedxcftvgyhbujnkiqwe/castaway-plugins/wiki/Weapon-Reverts-Changelog#december-12-2024)
 > * [November 2024](https://github.com/rsedxcftvgyhbujnkiqwe/castaway-plugins/wiki/Weapon-Reverts-Changelog#november-11-2024)
 > * [October 2024](https://github.com/rsedxcftvgyhbujnkiqwe/castaway-plugins/wiki/Weapon-Reverts-Changelog#october-10-2024)
+>
+> **[See also](https://github.com/rsedxcftvgyhbujnkiqwe/castaway-plugins/wiki/Weapon-Reverts-Changelog#see-also)**
 
 ## Changelog
 
+### July 25, 2025
+- **Added Rocket Jumper revert variants.**
+	- *Release Rocket Jumper*
+		- No self blast damage including from Equalizer/Escape Plan taunt and from pumpkin bombs
+		- Wearer can pick up intel
+		- Random crits (yes, I know its useless but funny)
+		- Wearer emits hurt sounds when hit by own rockets
+	- *December 22, 2010 Rocket Jumper*
+		- 100% fire, bullet, explosive dmg vulnerabilities
+		- No self inflicted blast damage taken from your own weapons and pumpkin bombs you exploded
+		- Can cap intel
+		- Random crits
+		- Wearer emits hurt sounds when hit by own rockets
+	- *October 27, 2010 Rocket Jumper*
+		- -100 max hp
+		- No self inflicted blast damage taken from your own weapons and pumpkin bombs you exploded
+		- Can cap intel
+		- Random crits
+		- Wearer emits hurt sounds when hit by own rockets
+- **Added Sticky Jumper revert variants.**
+	- *Release Day 2 Sticky Jumper*
+		- +200% max primary ammo on wearer
+		- No self inflicted blast damage taken from your own weapons and pumpkin bombs you exploded
+		- -100% damage done
+		- -75 max health on wearer
+		- Can capture intel
+		- Random crits
+		- Wearer emits hurt sounds when hit by own stickies
+	- *December 22, 2010 Sticky Jumper*
+		- +200% max primary ammo on wearer
+		- No self inflicted blast damage taken from your own weapons and pumpkin bombs you exploded
+		- -100% damage done
+		- 100% fire, bullet, explosive dmg vulnerabilities
+		- Can capture intel
+		- Random crits
+		- Wearer emits hurt sounds when hit by own stickies
+- **Added Smissmas 2013 Short Circuit variant**
+	- Reverted to Smissmas 2013, primary fire destroys projectiles (fires rapidly, costs 5 metal), can pick up metal from dispensers when active
+- **Other information regarding the Jumper reverts**
+	- Updated StkJumper_Pre2013_Intel item description from Pyromania Update to Manniversary Update (no increased damage vulns, 8 stickies, caps intel)
+	- Historical Note: May 31, 2012 was when the no intel attribute was added for both jumper weapons.
+	- Note: hurtme console command does not work whenever the Jumper weapon variants are enabled and are equipped.
+- **Updated server cfgs**
+- **Updated Finnish and French localizations**
+- **Plugin now uses methodmap API for dhook and event [(PR #222)](https://github.com/rsedxcftvgyhbujnkiqwe/castaway-plugins/pull/222)**
+
 ### July 24, 2025
 - **Added release Mad Milk revert**
-  - *The Mad Milk*
-    - Players heal 75% of the damage done to an enemy covered with milk.
-    - Can be used to extinguish fires. (does not reduce cooldown)
+	- *Release Mad Milk*
+		- Players heal 75% of the damage done to an enemy covered with milk.
+		- Can be used to extinguish fires. (does not reduce cooldown)
 - **Added reverts for Cow Mangler 5000**
-  - *Release Cow Mangler 5000*
-    - 5 shots in clip (Full reload time average: ~4.93 seconds)
-    - Cannot be crit-boosted
-    - No random critical hits
-  - *Pre-Summer Event 2013 Cow Mangler 5000*
-    - 5 shots in clip (Full reload time average: ~5.14 seconds)
-    - Cannot be crit-boosted
-    - -10% dmg penalty
-    - 5% slower reload time
-    - No random critical hits
+	- *Release Cow Mangler 5000*
+		- 5 shots in clip (Full reload time average: ~4.93 seconds)
+		- Cannot be crit-boosted
+		- No random critical hits
+	- *Pre-Summer Event 2013 Cow Mangler 5000*
+		- 5 shots in clip (Full reload time average: ~5.14 seconds)
+		- Cannot be crit-boosted
+		- -10% dmg penalty
+		- 5% slower reload time
+		- No random critical hits
 - **Added revert variants for Sydney Sleeper**
-  - *Pre-Gun Mettle Sydney Sleeper*
-    - +25% charge rate
-    - On Hit: Jarate applied to target for 8 seconds
-    - No random critical hits
-    - No headshots and no headshot bonuses
-  - *Release Sydney Sleeper*
-    - No charge rate increase. Same charge rate as Stock Sniper Rifle
-    - On Hit: Jarate applied to target for 8 seconds, even against UberCharged enemies.
-    - Random critical hits enabled*
-    - No headshots and no headshot bonuses
-    - Penetrates enemy players at 100% charge**
-      - *The random crit mechanic and its not accurate - the random crits don't follow crit ramp-up mechanics
-      - **According to old Wiki pages the release Sydney Sleeper should penetrate when above 75% charge, but the Machina attribute is used for now
+	- *Pre-Gun Mettle Sydney Sleeper*
+		- +25% charge rate
+		- On Hit: Jarate applied to target for 8 seconds
+		- No random critical hits
+		- No headshots and no headshot bonuses
+	- *Release Sydney Sleeper*
+		- No charge rate increase. Same charge rate as Stock Sniper Rifle
+		- On Hit: Jarate applied to target for 8 seconds, even against UberCharged enemies.
+		- Random critical hits enabled*
+		- No headshots and no headshot bonuses
+		- Penetrates enemy players at 100% charge**
+			- *The random crit mechanic and its not accurate - the random crits don't follow crit ramp-up mechanics
+			- **According to old Wiki pages the release Sydney Sleeper should penetrate when above 75% charge, but the Machina attribute is used for now
 - **Added pre-Gun Mettle Natascha variant**
-  - *Pre-Gun Mettle Natascha*
-    - On Hit: 100% chance to slow target (no distance falloff)
-    - +50% max primary ammo on wearer
-    - -25% damage penalty
-    - 30% slower spin up time
-    - No damage resistance when spun up
+	- *Pre-Gun Mettle Natascha*
+		- On Hit: 100% chance to slow target (no distance falloff)
+		- +50% max primary ammo on wearer
+		- -25% damage penalty
+		- 30% slower spin up time
+		- No damage resistance when spun up
 - **Added pre-Blue Moon Atomizer variant**
-  - *Pre-Blue Moon Atomizer*
-    - Grants Triple Jump while deployed. (does not have to be fully deployed)
-    - Melee attacks mini-crit while airborne.
-    - -15% damage vs players
-    - This weapon deploys 50% slower
-- **Reverted Short Circuit now has particle effects for destroying projectiles.**
-- **Reverted Short Circuit now destroys Crusader's Crossbow bolts and Dragon's Fury fireballs.**
+	- *Pre-Blue Moon Atomizer*
+		- Grants Triple Jump while deployed. (does not have to be fully deployed)
+		- Melee attacks mini-crit while airborne.
+		- -15% damage vs players
+		- This weapon deploys 50% slower
+- **Reverted Short Circuit changes:**
+	- Now destroys Crusader's Crossbow bolts and Dragon's Fury fireballs.
+	- Now has particle effects for destroying projectiles.
 - **Reverted Pomson 6000 and Righteous Bison changes:** 
 	- No longer ignores the Fists of Steel ranged damage resistance and also now deals knock-back on hit to enemies.
 	- Both weapons' projectiles no longer collides with other projectiles.
+- **Enabled the reverted Special Delivery item set bonus on the Castaway.tf servers for a trial period.**
+- **Enabled the reverted Mad Milk on the Castaway.tf servers.**
+- **Disabled the Quickiebomb Launcher revert and release Pomson 6000 revert (now using the regular variant) on the Castaway.tf servers.**
 - **Updated Traditional Chinese localization file.**
 - **Renamed `sm_reverts__extras` to `sm_reverts__show_moonshot` and added a toggle for it in the reverts menu.**
 
@@ -640,3 +692,11 @@
 
 ### October 10, 2024
 - **Some Castaway.tf servers now uses the blanket Pre-Gun Mettle reverts plugin made by NotnHeavy.**
+
+## See also
+[Back to top](https://github.com/rsedxcftvgyhbujnkiqwe/castaway-plugins/wiki/Weapon-Reverts-Changelog#contents)
+
+- [Castaway Server CVars](https://github.com/rsedxcftvgyhbujnkiqwe/castaway-plugins/wiki/Castaway-Server-CVars)
+- [Weapon Reverts List & Other Cvars](https://github.com/rsedxcftvgyhbujnkiqwe/castaway-plugins/wiki/Weapon-Revert-List)
+- [Server Config Presets](https://github.com/rsedxcftvgyhbujnkiqwe/castaway-plugins/wiki/Weapon-Reverts-Config-Presets)
+- _[Castaway.tf Weapon Reverts Thread (External link)](https://steamcommunity.com/groups/castawaytf/discussions/0/591756872987516258/)_
