@@ -1,4 +1,5 @@
 # Castaway.tf Weapon Reverts Changelog
+[![Weapon Reverts Plugin](https://castaway.tf/images/revert_titlecard.png)](https://www.youtube.com/watch?v=HWenueVOXZ0)
 
 > ## Contents
 > **Clicking on a month will jump to the earliest change log of that month.**
@@ -6,6 +7,7 @@
 > **Specific dates can be selected by expanding the Pages box on the right side of the screen.**
 >
 > **2025**
+> * [August 2025](https://github.com/rsedxcftvgyhbujnkiqwe/castaway-plugins/wiki/Weapon-Reverts-Changelog#august-1-2025)
 > * [July 2025](https://github.com/rsedxcftvgyhbujnkiqwe/castaway-plugins/wiki/Weapon-Reverts-Changelog#july-1-2025)
 > * [June 2025](https://github.com/rsedxcftvgyhbujnkiqwe/castaway-plugins/wiki/Weapon-Reverts-Changelog#june-2-2025)
 > * [May 2025](https://github.com/rsedxcftvgyhbujnkiqwe/castaway-plugins/wiki/Weapon-Reverts-Changelog#may-1-2025)
@@ -22,6 +24,23 @@
 > **[See also](https://github.com/rsedxcftvgyhbujnkiqwe/castaway-plugins/wiki/Weapon-Reverts-Changelog#see-also)**
 
 ## Changelog
+
+### August 1, 2025
+- **Fixed a bug with the reverted Air Strike where the rocket blast radius became 0.**
+- **Added pre-Love & War Wrangler variant**
+	- *Pre-Love & War Wrangler*
+		- Fully repair and refill while shield is up
+		- Sentry active in 1 second on death
+		- No damage falloff beyond scan range
+		- Damage based on the Engineer's position, not the Sentry Gun.
+- **Updated localization files**
+
+### July 29, 2025
+- **Updated reverted Short Circuit to use a destruction blacklist.**
+  - Now it destroys all projectiles except syringes, Righteous Bison/Pomson 6000 energy beams, grappling hooks and spell projectiles. In a nutshell, anything that Pyro can reflect should also be destroyed by the Short Circuit.
+- **Fixed a plugin startup issue when using the plugin with memory patches disabled.**
+- **Reverted Special Delivery item set now allows the Unarmed Combat and Festive Holy Mackerel melee weapons.**
+- **Updated Polish translation.**
 
 ### July 25, 2025
 - **Added Rocket Jumper revert variants.**
@@ -97,7 +116,7 @@
 		- Random critical hits enabled*
 		- No headshots and no headshot bonuses
 		- Penetrates enemy players at 100% charge**
-			- *The random crit mechanic and its not accurate - the random crits don't follow crit ramp-up mechanics
+			- *The random crit mechanic is not accurate - the random crits don't follow crit ramp-up mechanics
 			- **According to old Wiki pages the release Sydney Sleeper should penetrate when above 75% charge, but the Machina attribute is used for now
 - **Added pre-Gun Mettle Natascha variant**
 	- *Pre-Gun Mettle Natascha*
