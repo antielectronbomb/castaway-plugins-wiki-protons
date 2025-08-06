@@ -25,6 +25,8 @@
 
 ## Changelog
 
+_**NOTE: [Plugin] means a change applied to the weapon reverts plugin itself. [Server] means a change applied to the Castaway.tf game servers. [Plugin/Server] applied to both.**_
+
 ### August 5, 2025
 - **[Plugin] Historical Pomson 6000 variants should now uses the old historical damage formula/mechanics.**
 
