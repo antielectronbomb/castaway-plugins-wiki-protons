@@ -25,10 +25,26 @@
 
 ## Changelog
 
-_**NOTE: [Plugin] means a change applied to the weapon reverts plugin itself. [Server] means a change applied to the Castaway.tf game servers. [Plugin/Server] applied to both.**_
+_**NOTE: [Plugin] means a change applied to the weapon reverts plugin itself. [Server] means a change applied to the Castaway.tf game servers. [Plugin/Server] means changes are applied to both.**_
+
+### August 9, 2025
+- **[Plugin/Server] Reverted Shortstop changes:**
+  - Moved shove removal code to DHook, should fix any issues caused by previous method
+  - Alt-fire shove for reverted Shortstop is now toggleable via cvar (`sm_reverts__enable_shortstop_shove`, disabled by default) instead of revert variants
+- **Reverted Chargin' Targe and Tide Turner descriptions now list that they can only deal bash damage at 60% depleted (near end-of-charge).**
+- **[Plugin] Added following revert variants:**
+  - Pre-Blue Moon Axtinguisher
+  - Pre-Tough Break Beggar's Bazooka
+  - Pre-Tough Break Cleaner's Carbine
+  - Post-Release Dead Ringer
+  - Pre-Jungle Inferno Gloves of Running Urgently
+  - Pre-WAR! Update Sandman
+  - Release Shortstop
+  - Release Splendid Screen
+- **Updated localization files**
 
 ### August 5, 2025
-- **[Plugin] Historical Pomson 6000 variants should now uses the old historical damage formula/mechanics.**
+- **[Plugin] Historical Pomson 6000 variants now uses the old historical damage formula/mechanics.**
 
 ### August 1, 2025
 - **Fixed a bug with the reverted Air Strike where the rocket blast radius became 0.**
