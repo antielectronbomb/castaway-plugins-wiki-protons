@@ -27,6 +27,23 @@
 
 _**NOTE: [Plugin] means a change applied to the weapon reverts plugin itself. [Server] means a change applied to the Castaway.tf game servers. [Plugin/Server] means changes are applied to both.**_
 
+### August 16, 2025
+- **[Plugin/Server] Added Amputator and Concheror reverts**
+  - Amputator - Reverted to pre-toughbreak, regenerates +3 HP/s flat when active regardless if user recently took damage
+  - Concheror - Reverted to pre-toughbreak, regenerates +2 HP/s flat regardless if user recently took damage
+
+### August 13, 2025
+- **Reverted Dead Ringer ("old-style", pre-GM and post-release variants) changes:**
+  - No longer plays the speed boost sound or shows the "ubered" visual effect when under feigning buffs (90% damage resistance and no cloak flickering).
+    - The speed boost sound might still play sometimes but shouldn't in the majority of cases.
+  - Full 90% damage resistance when below 50% cloak meter and under feign buffs. Previously the vanilla feign buff was used which decreased damage resistance below 50% cloak meter.
+
+### August 10, 2025
+- **[Plugin/Server] Reverted pre-Jungle Inferno Atomizer now shows purple smoke on both double and triple jumps for historical accuracy.**
+  - Purple smoke was first added to the revert when the pre-Blue Moon Atomizer variant was added, and only showed on triple jumps.
+- **[Plugin] Reverted Brass Beast/Natascha no longer resist vanilla Enforcer.**
+- **Updated localization files**
+
 ### August 9, 2025
 - **[Plugin/Server] Reverted Shortstop changes:**
   - Moved shove removal code to DHook, should fix any issues caused by previous method
@@ -435,6 +452,9 @@ _**NOTE: [Plugin] means a change applied to the weapon reverts plugin itself. [S
 
 ### May 31, 2025
 - **[Server] Disabled the Darwin's Danger Shield and Tomislav reverts. The server now uses the modern versions of these items.**
+
+### May 28, 2025
+- **[Plugin/Server] Short Circuit revert is now more accurate to the pre-MyM version, with alt-fire costing 15 metal at a 0.5 second interval and dealing 20 damage to players. Previous version cost 10 metal at a 0.25 second interval and dealt 10 damage to players.**
 
 ### May 25, 2025
 - **Fixed reverted Persian Persuader not removing afterburn and bleed when picking up ammo packs as health, and increased pickup volume for dropped ammo packs.**
