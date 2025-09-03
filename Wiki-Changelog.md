@@ -27,6 +27,29 @@
 
 _**NOTE: [Plugin] means a change applied to the weapon reverts plugin itself. [Server] means a change applied to the Castaway.tf game servers. [Plugin/Server] means changes are applied to both.**_
 
+### August 22, 2025
+- **[Plugin/Server] Added Eureka Effect revert, which simply resupplies the player when teleporting to spawn.**
+  - This is not historically accurate, as it simply reverts a change from the [August 27, 2015 patch](https://wiki.teamfortress.com/wiki/August_27,_2015_Patch), which also removed the resupplying upon teleporting to spawn.
+    - *August 27, 2015 Patch*
+    - *Fixed the Engineer losing revenge Crits and picked-up weapons after using the Eureka Effect to teleport back to base.*
+    - *[Undocumented] As a result of the revenge Crits fix, the Eureka Effect no longer replenishes health and ammunition. Effects such as fire, Jarate, Mad Milk, etc. are no longer removed.*
+- **[Plugin/Server] Shield bash damage with reverted Demoman shields is now historically accurate.**
+  - Reverted bash damage was 50 base + 10 per head collected (up to 5 heads), for up to 100 damage. Splendid Screen increases the damage by 70%, allowing for up to 170 damage.
+  - Shield bash damage for Splendid Screen was not scaled by charge depleted, dealing full bash damage at point blank.
+- **[Plugin] Added Red-Tape Recorder revert (release)**
+  - Red-Tape Recorder - Reverted to release, faster downgrade speed on upgraded enemy buildings (1.6 s)
+- Updated localization files
+
+### August 17, 2025
+- **[Plugin] Rescue Ranger revert is now available when using the patchless version of the reverts plugin.**
+- **[Plugin] Added pre-Jungle Inferno Rescue Ranger variant**
+  - Rescue Ranger - Reverted to pre-inferno, no metal cost for healing buildings
+- **[Plugin/Server] Fixed a bug where the healing amount displayed was negative when healing buildings with reverted Rescue Ranger**
+- **[Plugin] Fixed the reverted Rescue Ranger fully healing un-reverted wrangled sentries**
+- **[Plugin] Fixed the vanilla Rescue Ranger not fully healing reverted wrangled sentries**
+- **[Plugin] Fixed vanilla Half-Zatoichi not having increased range when swords revert is enabled**
+- **Updated localization files**
+
 ### August 16, 2025
 - **[Plugin/Server] Added Amputator and Concheror reverts**
   - Amputator - Reverted to pre-toughbreak, regenerates +3 HP/s flat when active regardless if user recently took damage
