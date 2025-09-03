@@ -7,6 +7,7 @@
 > **Specific dates can be selected by expanding the Pages box on the right side of the screen.**
 >
 > **2025**
+> * [September 2025](https://github.com/rsedxcftvgyhbujnkiqwe/castaway-plugins/wiki/Weapon-Reverts-Changelog#september-1-2025)
 > * [August 2025](https://github.com/rsedxcftvgyhbujnkiqwe/castaway-plugins/wiki/Weapon-Reverts-Changelog#august-1-2025)
 > * [July 2025](https://github.com/rsedxcftvgyhbujnkiqwe/castaway-plugins/wiki/Weapon-Reverts-Changelog#july-1-2025)
 > * [June 2025](https://github.com/rsedxcftvgyhbujnkiqwe/castaway-plugins/wiki/Weapon-Reverts-Changelog#june-2-2025)
@@ -26,6 +27,43 @@
 ## Changelog
 
 _**NOTE: [Plugin] means a change applied to the weapon reverts plugin itself. [Server] means a change applied to the Castaway.tf game servers. [Plugin/Server] means changes are applied to both.**_
+
+
+### September 1, 2025
+- **[Plugin] Added item flags feature where it disable some weapon reverts by default.**
+- **[Plugin] Added Phlogistinator revert variants.**
+	- *Pyromania Phlogistinator (Variant 0)*
+		- Video reference: https://www.youtube.com/watch?v=D5Et9qhxDvQ
+		- Wiki: https://wiki.teamfortress.com/w/index.php?title=Phlogistinator&oldid=1968959
+		- MMMPH meter requires 225 damage
+		- Instantly restores health to max during activation
+		- -10% damage penalty
+		- No invulnerability on MMMPH
+		- 75% damage resistance while taunting (25% against crits)
+	- *Tough Break Phlogistinator (Variant 1)*
+		- Video reference: https://www.youtube.com/watch?v=9cMTp4xd1R8
+		- Wiki: https://wiki.teamfortress.com/w/index.php?title=Phlogistinator&oldid=2035615
+		- MMMPH meter requires 225 damage
+		- Instantly restores health to max during activation
+		- Invulnerability lingers a bit right after taunt ends (NOTE: I eyeballed the duration for this. I estimated it to be 3.5 s of Uber. No idea what actually was the duration)
+	- *Release Phlogistinator (Variant 2)*
+		- Wiki: https://wiki.teamfortress.com/w/index.php?title=Phlogistinator&oldid=967378
+		- MMMPH meter requires 225 damage
+		- Instantly restores health to max during activation
+		- No invulnerability on MMMPH
+		- 90% damage resistance while taunting (30% against crits)
+		- Can survive taunt kills while activating MMMPH
+		- 13 seconds long MMMPH crit buff 
+			- (13 seconds according to the wiki, but the changelogs say 12 seconds. I chose 13 because it accounts for the taunt duration)
+	- *March 15, 2012 Phlogistinator (Variant 3)*
+		- Wiki: https://wiki.teamfortress.com/w/index.php?title=Phlogistinator&oldid=1055749
+		- MMMPH meter requires 225 damage
+		- Instantly restores health to max during activation
+		- No invulnerability on MMMPH
+		- 90% damage resistance while taunting (30% against crits)
+		- -10% damage penalty
+		- Can survive taunt kills while activating MMMPH
+- **Updated localization files**
 
 ### August 22, 2025
 - **[Plugin/Server] Added Eureka Effect revert, which simply resupplies the player when teleporting to spawn.**
