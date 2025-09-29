@@ -28,9 +28,15 @@
 
 _**NOTE: [Plugin] means a change applied to the weapon reverts plugin itself. [Server] means a change applied to the Castaway.tf game servers. [Plugin/Server] means changes are applied to both.**_
 
+### September 19, 2025
+- **[Plugin] The item key for Phlogistinator was changed from "phlogistinator" to "phlog".**
+
+### September 13, 2025
+- **[Plugin/Server] Short Circuit projectile destruction now ignores spawn room barriers. This makes clearing sticky traps with the reverted Short Circuit more effective.**
+- **[Plugin/Server] Fixed a bug where Heavies spun up with the reverted Brass Beast/Natascha were invulnerable to Sentry Gun fire.**
 
 ### September 1, 2025
-- **[Plugin] Added item flags feature where it disable some weapon reverts by default.**
+- **[Plugin] Some weapon reverts are now disabled by default.**
 - **[Plugin] Added Phlogistinator revert variants.**
 	- *Pyromania Phlogistinator (Variant 0)*
 		- Video reference: https://www.youtube.com/watch?v=D5Et9qhxDvQ
