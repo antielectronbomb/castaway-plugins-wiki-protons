@@ -28,6 +28,13 @@
 
 _**NOTE: [Plugin] means a change applied to the weapon reverts plugin itself. [Server] means a change applied to the Castaway.tf game servers. [Plugin/Server] means changes are applied to both.**_
 
+### September 29, 2025
+- **[Plugin] Added reverts for all Flamethrowers (pre-Blue Moon), Sniper Rifles (pre-2014), Stickybomb Launchers (pre-Love & War).**
+- **[Plugin] Added reverts for Bushwacka (Pre-Gun Mettle), Rescue Ranger (Release), and Reserve Shooter (Release).**
+- **[Plugin] Fixed issues with some weapons and did general technical improvements to some reverted weapons.**
+- **[Plugin] Updated weapon descriptions.**
+- **[Plugin] Updated localization files.**
+
 ### September 19, 2025
 - **[Plugin] The item key for Phlogistinator was changed from "phlogistinator" to "phlog".**
 
