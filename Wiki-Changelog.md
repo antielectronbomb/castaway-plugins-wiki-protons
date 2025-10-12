@@ -7,6 +7,7 @@
 > **Specific dates can be selected by expanding the Pages box on the right side of the screen.**
 >
 > **2025**
+> * [October 2025](https://github.com/rsedxcftvgyhbujnkiqwe/castaway-plugins/wiki/Weapon-Reverts-Changelog#october-1-2025)
 > * [September 2025](https://github.com/rsedxcftvgyhbujnkiqwe/castaway-plugins/wiki/Weapon-Reverts-Changelog#september-1-2025)
 > * [August 2025](https://github.com/rsedxcftvgyhbujnkiqwe/castaway-plugins/wiki/Weapon-Reverts-Changelog#august-1-2025)
 > * [July 2025](https://github.com/rsedxcftvgyhbujnkiqwe/castaway-plugins/wiki/Weapon-Reverts-Changelog#july-1-2025)
@@ -28,10 +29,34 @@
 
 _**NOTE: [Plugin] means a change applied to the weapon reverts plugin itself. [Server] means a change applied to the Castaway.tf game servers. [Plugin/Server] means changes are applied to both.**_
 
-### September 29, 2025
-- **[Plugin] Added reverts for all Flamethrowers (pre-Blue Moon), Sniper Rifles (pre-2014), Stickybomb Launchers (pre-Love & War).**
-- **[Plugin] Added reverts for Bushwacka (Pre-Gun Mettle), Rescue Ranger (Release), and Reserve Shooter (Release).**
+### October 10, 2025
+- **[Plugin] Added reverts for all Grenade Launchers (pre-Smissmas 2014), Iron Bomber (pre-2022) and Gunslinger (pre-Gun Mettle and release).**
+- **[Plugin] Minigun ramp-up and Wrangler reverts are now available patchless.**
+- **[Plugin] Refactored code for Stickybomb, Dead Ringer and Phlogistinator reverts.**
+- **[Plugin] Reverted Loch-n-Load's (pre-Smissmas 2014) +/- 15% random variance on damage has been moved to the Grenade Launcher revert and only applies when random damage spread is enabled.**
+
+### October 1, 2025
+- **[Plugin] Added reverts for all Flamethrowers (pre-Blue Moon) and Stickybomb Launchers (pre-Love & War).**
+- **[Server] Enabled reverts for Darwin's Danger Shield (release) and Phlogistinator (pre-Tough Break) on the Castaway.tf servers for a trial period.**
+- **[Server] Disabled the Short Circuit (pre-Gun Mettle) revert on the Castaway.tf servers for a trial period. The servers now use the vanilla Short Circuit.**
+
+### September 28, 2025
+- **[Plugin] Added Sniper Rifle revert (pre-2014).**
+- **[Plugin] Added revert variants for Bushwacka (Pre-Gun Mettle), Rescue Ranger (Release), and Reserve Shooter (Release).**
 - **[Plugin] Fixed issues with some weapons and did general technical improvements to some reverted weapons.**
+  - Changed how 'full-regen' (Amputator and Concheror) reverts behave. Previously they faked the game state for Mann vs Machine, now they increase the regeneration amount for the current frame.
+  - Dead Ringer revert (pre-Gun Mettle) no longer overshoots the cloak meter when gaining cloak from ammo.
+  - Sandman revert (pre-WAR! Update) has proper ball damage on the first hit. Previously the damage was reduced by 25%.
+  - Powerjack reverts preserve the attribute as seen in the inspect panel.
+  - Cleaner's Carbine revert (release) uses the 'Crikey' meter to indicate remaining crit-boost duration.
+  - Fixed reverted Phlogistinator gaining MMMPH way faster than intended.
+  - Sydney Sleeper reverts:
+    - Pre-Blue Moon: Now has the Jarate icon when scoped in and proper teammate extinguishing.
+    - Release: Now uses proper random-crit rampup and random crits obey the server's setting.
+  - Reverted Razorback now has the entity removed when backstabbed. This is basically how the old Razorback functioned.
+  - Persian Persuader revert (pre-Tough Break) can no longer gain ammo from Dispensers.
+  - Major code cleanup!
+- **[Plugin] The option for the old (pre-Jungle Inferno) fall damage sound effects is now disabled by default.**
 - **[Plugin] Updated weapon descriptions.**
 - **[Plugin] Updated localization files.**
 
