@@ -29,6 +29,12 @@
 
 _**NOTE: [Plugin] means a change applied to the weapon reverts plugin itself. [Server] means a change applied to the Castaway.tf game servers. [Plugin/Server] means changes are applied to both.**_
 
+### October 21, 2025
+- **[Server] Enabled Gunsligner revert for a trial period.**
+- **[Server] Re-enabled Short Circuit revert, kept Phlogistinator revert.**
+- **[Server] Disabled Darwin's Danger Shield revert.**
+- **[Server] Enabled Sniper Rifle scope jump revert.**
+
 ### October 10, 2025
 - **[Plugin] Added reverts for all Grenade Launchers (pre-Smissmas 2014), Iron Bomber (pre-2022) and Gunslinger (pre-Gun Mettle and release).**
 - **[Plugin] Minigun ramp-up and Wrangler reverts are now available patchless.**
@@ -36,7 +42,7 @@ _**NOTE: [Plugin] means a change applied to the weapon reverts plugin itself. [S
 - **[Plugin] Reverted Loch-n-Load's (pre-Smissmas 2014) +/- 15% random variance on damage has been moved to the Grenade Launcher revert and only applies when random damage spread is enabled.**
 
 ### October 1, 2025
-- **[Plugin] Added reverts for all Flamethrowers (pre-Blue Moon) and Stickybomb Launchers (pre-Love & War).**
+- **[Plugin/Server] Added reverts for all Flamethrowers (pre-Blue Moon) and Stickybomb Launchers (pre-Love & War).**
 - **[Server] Enabled reverts for Darwin's Danger Shield (release) and Phlogistinator (pre-Tough Break) on the Castaway.tf servers for a trial period.**
 - **[Server] Disabled the Short Circuit (pre-Gun Mettle) revert on the Castaway.tf servers for a trial period. The servers now use the vanilla Short Circuit.**
 
