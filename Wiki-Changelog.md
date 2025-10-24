@@ -35,6 +35,9 @@ _**NOTE: [Plugin] means a change applied to the weapon reverts plugin itself. [S
 - **[Server] Disabled Darwin's Danger Shield revert.**
 - **[Server] Enabled Sniper Rifle scope jump revert.**
 
+### October 19, 2025
+- **[Plugin] Fixed mini-crit resist for reverted Brass Beast and Natascha.**
+
 ### October 10, 2025
 - **[Plugin] Added reverts for all Grenade Launchers (pre-Smissmas 2014), Iron Bomber (pre-2022) and Gunslinger (pre-Gun Mettle and release).**
 - **[Plugin] Minigun ramp-up and Wrangler reverts are now available patchless.**
