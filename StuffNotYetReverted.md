@@ -5,9 +5,19 @@ List of Potential Weapons to Revert:
 - Sandvich/Lunchbox plate drops being able to be picked up by the owner as health
 - FaN revert (3 shots?? wtf are you sure about this)
 - Crossbow Revert (revert most recent nerf) where it gave you more uber when you healed someone
-    - huutti says to mempatch this: https://github.com/ValveSoftware/source-sdk-2013/blob/master/src/game/server/tf/tf_projectile_arrow.cpp#L1275
+	- https://wiki.teamfortress.com/w/index.php?title=Crusader%27s_Crossbow&oldid=2261465
+	- huutti says to mempatch this: https://github.com/ValveSoftware/source-sdk-2013/blob/master/src/game/server/tf/tf_projectile_arrow.cpp#L1275
 	- todo: find out if theres a way to do this without a mempatch
-- Blutsauger (no one uses this but okay)
+- Release Blutsauger (no one uses this but okay)
+- Release Ambassador (May 21, 2009 to May 25, 2009)
+	- Mini-crits on Headshots
+	- No cooldowns
+	- Penetrates enemy players(?)
+- May 26, 2009 Ambassador (May 26, 2009 to June 23, 2009)
+	- Crits on headshots
+	- No cooldowns
+	- Penetrates enemy players(?)
+- ACTUALLY reverting Pomson and Bison to use flame particle hitbox
 
 Class Mechanics Reverts:
 - Pre-Gun Mettle Engineer Mechanics
