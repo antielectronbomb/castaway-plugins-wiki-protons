@@ -31,3 +31,4 @@ Miscellaneous:
 	- See example: https://youtu.be/Jrf5DAwTUcg
 - Bombonomicon instant explosion on death revert (currently has a delay)
 	- See example: https://youtu.be/JKmiRRvT7lY
+	- Another example: https://youtu.be/DM07WDWlSoI
