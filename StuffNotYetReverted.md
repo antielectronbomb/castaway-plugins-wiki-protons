@@ -4,7 +4,7 @@ List of Potential Weapons to Revert:
 - Bazaar Bargain Revert
 - Sandvich/Lunchbox plate drops being able to be picked up by the owner as health
 - FaN revert (3 shots?? wtf are you sure about this)
-OK - Crossbow Revert (revert most recent nerf) where it gave you more uber when you healed someone
+- (OK) Crossbow Revert (revert most recent nerf) where it gave you more uber when you healed someone
 	- https://wiki.teamfortress.com/w/index.php?title=Crusader%27s_Crossbow&oldid=2261465
 	- huutti says to mempatch this: https://github.com/ValveSoftware/source-sdk-2013/blob/master/src/game/server/tf/tf_projectile_arrow.cpp#L1275
 	- todo: find out if theres a way to do this without a mempatch
