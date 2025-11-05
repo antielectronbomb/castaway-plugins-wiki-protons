@@ -18,6 +18,7 @@ OK - Crossbow Revert (revert most recent nerf) where it gave you more uber when 
 	- No cooldowns
 	- Penetrates enemy players(?)
 - ACTUALLY reverting Pomson and Bison to use flame particle hitbox
+- Pre-Gun Mettle Dalokohs Bar (can be eaten infinitely, no overheal, cannot be thrown)
 
 Class Mechanics Reverts:
 - Pre-Gun Mettle Engineer Mechanics
