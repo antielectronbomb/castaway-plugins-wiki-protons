@@ -16,7 +16,7 @@ List of Potential Weapons to Revert:
 - May 26, 2009 Ambassador (May 26, 2009 to June 23, 2009)
 	- Crits on headshots
 	- No cooldowns
-	- Penetrates enemy players(?)
+	- Penetrates enemy players(?) (attribute 389)
 - ACTUALLY reverting Pomson and Bison to use flame particle hitbox
 - Pre-Gun Mettle Dalokohs Bar (can be eaten infinitely, no overheal, cannot be thrown)
 
