@@ -28,7 +28,7 @@
 
 ## Changelog
 
-_**NOTE: [Plugin] means a change applied to the weapon reverts plugin itself. [Server] means a change applied to the Castaway.tf game servers. [Plugin/Server] means changes are applied to both.**
+_**NOTE: [Plugin] means a change applied to the weapon reverts plugin itself. [Server] means a change applied to the Castaway.tf game servers. [Plugin/Server] means changes are applied to both.**_
 
 ### November 20, 2025
 - **[Plugin/Server] Fixed Quick-Fix uber sound loop bug which was caused by the Phlogistinator revert.**
