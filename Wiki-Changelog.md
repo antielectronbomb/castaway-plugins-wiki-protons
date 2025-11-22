@@ -1,4 +1,4 @@
-# Castaway.tf Weapon Reverts Changelog
+# Extended Weapon Reverts Plugin Changelog
 [![Weapon Reverts Plugin](https://github.com/user-attachments/assets/e010c79e-ebe2-41fb-838e-6398b9de5a6b)](https://www.youtube.com/watch?v=HWenueVOXZ0)
 
 > ## Contents
@@ -7,6 +7,7 @@
 > **Specific dates can be selected by expanding the Pages box on the right side of the screen.**
 >
 > **2025**
+> * [November 2025](https://github.com/rsedxcftvgyhbujnkiqwe/castaway-plugins/wiki/Weapon-Reverts-Changelog#november-4-2025)
 > * [October 2025](https://github.com/rsedxcftvgyhbujnkiqwe/castaway-plugins/wiki/Weapon-Reverts-Changelog#october-1-2025)
 > * [September 2025](https://github.com/rsedxcftvgyhbujnkiqwe/castaway-plugins/wiki/Weapon-Reverts-Changelog#september-1-2025)
 > * [August 2025](https://github.com/rsedxcftvgyhbujnkiqwe/castaway-plugins/wiki/Weapon-Reverts-Changelog#august-1-2025)
@@ -28,6 +29,51 @@
 ## Changelog
 
 _**NOTE: [Plugin] means a change applied to the weapon reverts plugin itself. [Server] means a change applied to the Castaway.tf game servers. [Plugin/Server] means changes are applied to both.**
+
+### November 20, 2025
+- **[Plugin/Server] Fixed Quick-Fix uber sound loop bug which was caused by the Phlogistinator revert.**
+- **[Plugin] Reworked Soda Popper Minicrits and Reserve Shooter code along with general code clean ups**
+- **[Plugin] Added new reverts/variants**
+	- **Rescue Ranger**
+		- Pre-Tough Break Rescue Ranger
+			- Reverted to pre-toughbreak, heals +75 flat for no metal cost (same 100 metal cost for long-range pickups)
+	- **Ambassador**
+		- Release Ambassador (May 21, 2009 to May 25, 2009)
+			- Mini-crits on Headshots
+			- No cooldowns
+			- Penetrates enemy players
+		- May 26, 2009 Ambassador (May 26, 2009 to June 23, 2009)
+			- Crits on headshots
+			- No cooldowns
+			- Penetrates enemy players
+	- **Dead Ringer**
+		- Release Dead Ringer
+			- Reverted to release, 90% dmg resist for 6.5s, no speedboost, no drain on early decloak, no afterburn immunity after feign
+		- Pre-January 6, 2010 Dead Ringer
+			- Reverted to pre-Jan 6, 2010; can fully pick up ammo, 90% dmg resist for 6.5s, no speedboost, up to 4%% drain on early decloak, no afterburn immunity after feign
+	- **Blutsauger**
+		- Release Blutsauger
+			- Reverted to release, no passive health regen penalty, no random crits
+	- **Tide Turner**
+		- Pre-Smissmas 2014 Tide Turner
+			- Reverted to pre-Smissmas 2014, can deal full crits, 25% blast and fire resist, crit after bash, no debuff removal, full bash dmg at end of charge, 100% charge on kill, no charge penalty when damaged
+	- **Direct Hit**
+		- Pre-December 22, 2009 Direct Hit
+			- Reverted to pre-December 22, 2009; mini-crits all airborne and floating underwater targets regardless of cause; explosive jumps not needed for mini-crits
+	- **Grenade Kamikaze Taunt Kill**
+		- With Release Gunboats, the grenade taunt deals only 64 damage to the user
+		- With Equalizer/Escape Plan without Release Gunboats and with taunt weapon switching turned on, the grenade taunt deals only 256 damage to the user (this means the user can survive the grenade taunt when overhealed)
+	- **Dalokohs Bar**
+		- Imported from NotnHeavy's
+		- Pre-Gun Mettle Dalokohs Bar
+			- Reverted to pre-gunmettle, instantly recharge after eating, cannot be dropped for health pick-ups via alt-fire
+	- **Buff Banner**
+		- Release Buff Banner
+			- Reverted to release, +40% longer buff effect duration (from 10 sec to 14 sec), requires 1000 damage points (from 600 dmg)
+	- **Scorch Shot**
+		- Gun Mettle (pre-July 6, 2015) Scorch Shot
+			- Reverted to pre-July 6, 2015 patch; no -35% self damage force penalty (higher blast jumping)
+- **[Plugin] Updated Localization files**
 
 ### November 12, 2025
 - **[Server] Re-enabled the pre-Gun Mettle Short Circuit revert on the servers.**
