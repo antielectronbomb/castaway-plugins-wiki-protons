@@ -73,7 +73,7 @@ _**NOTE: [Plugin] means a change applied to the weapon reverts plugin itself. [S
 	- **Scorch Shot**
 		- Gun Mettle (pre-July 6, 2015) Scorch Shot
 			- Reverted to pre-July 6, 2015 patch; no -35% self damage force penalty (higher blast jumping)
-- **[Plugin] Updated Localization files**
+- **[Plugin] Updated localization files**
 
 ### November 12, 2025
 - **[Server] Re-enabled the pre-Gun Mettle Short Circuit revert on the servers.**
