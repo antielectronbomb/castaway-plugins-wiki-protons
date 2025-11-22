@@ -1,5 +1,5 @@
 # Castaway.tf Weapon Reverts Changelog
-[![Weapon Reverts Plugin](https://castaway.tf/images/revert_titlecard.png)](https://www.youtube.com/watch?v=HWenueVOXZ0)
+[![Weapon Reverts Plugin](https://github.com/user-attachments/assets/e010c79e-ebe2-41fb-838e-6398b9de5a6b)](https://www.youtube.com/watch?v=HWenueVOXZ0)
 
 > ## Contents
 > **Clicking on a month will jump to the earliest change log of that month.**
@@ -27,12 +27,36 @@
 
 ## Changelog
 
-_**NOTE: [Plugin] means a change applied to the weapon reverts plugin itself. [Server] means a change applied to the Castaway.tf game servers. [Plugin/Server] means changes are applied to both.**_
+_**NOTE: [Plugin] means a change applied to the weapon reverts plugin itself. [Server] means a change applied to the Castaway.tf game servers. [Plugin/Server] means changes are applied to both.**
+
+### November 12, 2025
+- **[Server] Re-enabled the pre-Gun Mettle Short Circuit revert on the servers.**
+
+### November 10, 2025
+- **[Plugin] Added pre-JI Crusader's Crossbow revert (full uber gain on heal regardless if target recently took damage)**
+- **[Plugin] Added pre-May 2025 Thermal Thruster revert (bunny hop stomping)**
+- **[Plugin] Slightly reworked code for Righteous Bison revert**
+- **[Plugin] Old Dead Ringer no longer has the passive 20% cloak resistance after the feign buffs expire**
+- **[Server] Enabled Fists of Steel (release), Gunslinger (release) and Short Circuit (December 2013) reverts on the Castaway.tf servers for a trial period.**
+- **[Server] Disabled the Concheror revert on the Castaway.tf servers.**
+
+### November 4, 2025
+- **[Plugin] Reworked Persian Persuader ammo conversion to health. Now activates crit boost from crit pumpkins as expected.**
+- **[Plugin] Reverted Beggar's Bazooka (release) cannot gain ammo from Dispensers at all.**
+- **[Plugin] Gunboats revert is now disabled by default.**
+- **[Plugin] Updated localization files**
+
+### October 26, 2025
+- **[Plugin] Fixed pre-Gun Mettle Natascha inexplicably having spun-up damage resistance**
+- **[Plugin] Pre-MyM Short Circuit: Slowed firing interval to 0.67 s (from 0.5 s), shows particle effects when alt-fire hits a player**
+- **[Plugin] Grenade Launcher revert hit location damage variance happens only on the vertical axis**
+- **[Plugin] Minor code refactoring**
+- **[Plugin] Updated localization files**
 
 ### October 21, 2025
-- **[Server] Enabled Gunsligner revert for a trial period.**
-- **[Server] Re-enabled Short Circuit revert, kept Phlogistinator revert.**
-- **[Server] Disabled Darwin's Danger Shield revert.**
+- **[Server] Enabled Gunslinger revert (Pre-Gun Mettle) for a trial period.**
+- **[Server] Re-enabled Short Circuit revert (Pre-Gun Mettle), kept Phlogistinator revert (Pre-Tough Break).**
+- **[Server] Disabled Darwin's Danger Shield revert (release).**
 - **[Server] Enabled Sniper Rifle scope jump revert.**
 
 ### October 19, 2025
