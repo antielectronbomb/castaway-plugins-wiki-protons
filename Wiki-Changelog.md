@@ -30,6 +30,27 @@
 
 _**NOTE: [Plugin] means a change applied to the weapon reverts plugin itself. [Server] means a change applied to the Castaway.tf game servers. [Plugin/Server] means changes are applied to both.**_
 
+### November 26, 2025
+- **[Plugin] Added Sandvich revert**
+  - *Reverted to pre-Engineer Update, heal yourself by eating/throwing the Sandvich, can be eaten forever unless thrown which must then be recharged via resupply or health kits*
+- **[Plugin] Reverted Tomislav variants pre-Love&War have higher pitched weapon sounds**
+  - Added a pre-Love&War variant
+    - *Reverted to pre-love&war, 10% faster spinup, no accuracy bonus, 20% higher pitched weapon sounds*
+  - Added a variant that only reverts the sound while keeping the vanilla stats
+    - *Reverted only the firing sounds to pre-love&war, 20% higher pitched weapon sounds*
+- **[Plugin] Added pre-Jungle Inferno Direct Hit variant (now the base version)**
+  - *Reverted to pre-inferno, deals minicrits to airblasted targets again*
+- **[Plugin] Added pre-Tough Break Sentry Gun revert**
+  - *Reverted to pre-toughbreak, sentry is active immediately after being unsapped*
+- **[Plugin] Added a mempatch-only ConVar that reverts cloak behaviour so spy can taunt and cloak (i.e old fence taunt cloak bug)**
+- **[Plugin] Various code improvements!**
+  - Cleaned up code for the 2009 Ambassador variants (no headshot cooldown, penetrates targets)
+  - Equalizer damage bonus is now applied via attribute, fixes modified damage not being applied against everything and prevents code duplication
+  - Rewrote Buffalo Steak Sandvich movespeed modification. Release Steak now functions correctly on speed boosts and with Eviction Notice's speed boost.
+  - Phlog revert no longer uses the taunt DHook and all condition-related code is handled in the TF2CondHooks OnAddCond forward.
+    - Post-Tough Break Phlogistinator's invuln and knockback immunity has the correct duration now.
+  - Cleaned up code for Rescue Ranger revert
+
 ### November 20, 2025
 - **[Plugin/Server] Fixed Quick-Fix uber sound loop bug which was caused by the Phlogistinator revert.**
 - **[Plugin] Reworked Soda Popper Minicrits and Reserve Shooter code along with general code clean ups**
