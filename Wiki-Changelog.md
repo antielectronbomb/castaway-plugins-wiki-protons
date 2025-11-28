@@ -30,6 +30,9 @@
 
 _**NOTE: [Plugin] means a change applied to the weapon reverts plugin itself. [Server] means a change applied to the Castaway.tf game servers. [Plugin/Server] means changes are applied to both.**_
 
+### November 27, 2025
+- **[Plugin/Server] Fixed Spy disguises not working properly which causes the disguised Spy to be in the reference pose. See this [issue](https://github.com/rsedxcftvgyhbujnkiqwe/castaway-plugins/issues/27) for more information.**
+
 ### November 26, 2025
 - **[Plugin] Added Sandvich revert**
   - *Reverted to pre-Engineer Update, heal yourself by eating/throwing the Sandvich, can be eaten forever unless thrown which must then be recharged via resupply or health kits*
