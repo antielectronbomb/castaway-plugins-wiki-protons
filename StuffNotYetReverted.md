@@ -38,7 +38,7 @@ List of Potential Weapons to Revert:
 - (OK) Release Gunboats survives kamikaze taunt (see https://wiki.teamfortress.com/w/index.php?title=Grenade_(taunt)&oldid=91783)
 	- Video reference (64 self damage): https://www.youtube.com/watch?v=AFKThrW_VK4
 - (OK) Pre-Mann-Conomy Update Equalizer grenade taunt survivable when overhealed (self damage is 256; see https://wiki.teamfortress.com/w/index.php?title=Grenade_(taunt)&oldid=91783)
-
+- Pre-2008 Sniper Rifle 200ms Quickscope Revert
 
 Class Mechanics Reverts:
 - Pre-Gun Mettle Engineer Mechanics
