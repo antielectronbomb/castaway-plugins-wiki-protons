@@ -2,7 +2,7 @@ List of Potential Weapons to Revert:
 - Pre-Gun Mettle Vaccinator (import from NotnHeavy's, but difficult)
 - Pre-Jungle Inferno Flamethrower Mechanics (NotnHeavy's plugin needs to be fixed)
 - Bazaar Bargain Revert (import from NotnHeavy's) (is it even worth it??)
-- Sandvich/Lunchbox plate drops being able to be picked up by the owner as health
+- (OK) Sandvich/Lunchbox plate drops being able to be picked up by the owner as health
 - FaN revert (3 shots?? wtf are you sure about this)
 - (OK) Crossbow Revert (revert most recent nerf) where it gave you more uber when you healed someone
 	- https://wiki.teamfortress.com/w/index.php?title=Crusader%27s_Crossbow&oldid=2261465
@@ -45,7 +45,7 @@ Class Mechanics Reverts:
 - Old Medic self-regeneration mechanics
 
 Miscellaneous:
-- Fencing while cloaked bug revert https://www.youtube.com/watch?v=L_aFprOzvUA
+- (OK) Fencing while cloaked bug revert https://www.youtube.com/watch?v=L_aFprOzvUA
 - Spycicle fencing taunt
 - Huntsman Skewer taunt loop with another Huntsman sniper
 - Taunt camera being slow when taunt ends from third to first person
