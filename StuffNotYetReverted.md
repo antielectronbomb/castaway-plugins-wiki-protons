@@ -47,9 +47,10 @@ Class Mechanics Reverts:
 Miscellaneous:
 - (OK) Fencing while cloaked bug revert https://www.youtube.com/watch?v=L_aFprOzvUA
 - Spycicle fencing taunt
-- Huntsman Skewer taunt loop with another Huntsman sniper
-- Taunt camera being slow when taunt ends from third to first person
+- (OK) Huntsman Skewer taunt loop with another Huntsman sniper
+- Taunt camera being slow when taunt ends from third to first person (REQUIRES CLIENT CHANGE, MAKE A PR IN OFFICIAL SOURCE SDK)
 	- See example: https://youtu.be/Jrf5DAwTUcg
 - Bombonomicon instant explosion on death revert (currently has a delay)
 	- See example: https://youtu.be/JKmiRRvT7lY
 	- Another example: https://youtu.be/DM07WDWlSoI
+- Tomislav client-side firing sound revert (REQUIRES CLIENT CHANGE, MAKE A PR IN OFFICIAL SOURCE SDK)
