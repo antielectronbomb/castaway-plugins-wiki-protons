@@ -7,6 +7,7 @@
 > **Specific dates can be selected by expanding the Pages box on the right side of the screen.**
 >
 > **2025**
+> * [December 2025](https://github.com/rsedxcftvgyhbujnkiqwe/castaway-plugins/wiki/Weapon-Reverts-Changelog#december-2-2025)
 > * [November 2025](https://github.com/rsedxcftvgyhbujnkiqwe/castaway-plugins/wiki/Weapon-Reverts-Changelog#november-4-2025)
 > * [October 2025](https://github.com/rsedxcftvgyhbujnkiqwe/castaway-plugins/wiki/Weapon-Reverts-Changelog#october-1-2025)
 > * [September 2025](https://github.com/rsedxcftvgyhbujnkiqwe/castaway-plugins/wiki/Weapon-Reverts-Changelog#september-1-2025)
@@ -29,6 +30,17 @@
 ## Changelog
 
 _**NOTE: [Plugin] means a change applied to the weapon reverts plugin itself. [Server] means a change applied to the Castaway.tf game servers. [Plugin/Server] means changes are applied to both.**_
+
+### December 7, 2025
+- **[Plugin] Added pre-2012 Sandvich revert variant**
+  - *Reverted to pre-2012, can heal self by throwing the Sandvich*
+- **[Plugin] Updated localization files**
+
+### December 3, 2025
+- **[Plugin] Reworked B.A.S.E. Jumper revert, see [this](https://github.com/rsedxcftvgyhbujnkiqwe/castaway-plugins/pull/333) for more information**
+
+### December 2, 2025
+- **[Server] Re-enabled Concheror revert and disabled Short Circuit revert on the Castaway.tf servers.**
 
 ### November 27, 2025
 - **[Plugin/Server] Fixed Spy disguises not working properly which causes the disguised Spy to be in the reference pose. See this [issue](https://github.com/rsedxcftvgyhbujnkiqwe/castaway-plugins/issues/27) for more information.**
@@ -53,6 +65,7 @@ _**NOTE: [Plugin] means a change applied to the weapon reverts plugin itself. [S
   - Phlog revert no longer uses the taunt DHook and all condition-related code is handled in the TF2CondHooks OnAddCond forward.
     - Post-Tough Break Phlogistinator's invuln and knockback immunity has the correct duration now.
   - Cleaned up code for Rescue Ranger revert
+- **[Server] Enabled release Backburner revert (+50 HP, no airblast) on the Castaway.tf servers for a trial period.**
 
 ### November 20, 2025
 - **[Plugin/Server] Fixed Quick-Fix uber sound loop bug which was caused by the Phlogistinator revert.**
