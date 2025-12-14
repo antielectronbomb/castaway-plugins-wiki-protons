@@ -31,9 +31,19 @@
 
 _**NOTE: [Plugin] means a change applied to the weapon reverts plugin itself. [Server] means a change applied to the Castaway.tf game servers. [Plugin/Server] means changes are applied to both.**_
 
+### December 10, 2025
+- **[Plugin/Server] Fixed the plugin not working properly due to the recent Smissmas update.**
+- **[Plugin/Server] Corrected Pre-Gun Mettle Dead Ringer cloak _armor_ duration from 6.5 s to 6.0 s (this does not affect the cloak time itself) (research done by num-get).**
+	- Using the 2014 build of TF2, the Dead Ringer cloak used to flicker during the last quarter second of the duration.
+	- The old Dead Ringer had a total cloak duration of 6.25 seconds, 6 seconds of super armor, and a quarter second of normal cloak. 100 / ( 10 * 1.6 ) = 6.25s
+	- See this [pull request](https://github.com/rsedxcftvgyhbujnkiqwe/castaway-plugins/pull/337) for more info.
+- **[Plugin/Server] Added Huntsman staring contest bug revert.**
+	- Spam the taunt button with another enemy Sniper and be stunned forever with the other Sniper until one Sniper gets tired of repeatedly pressing the taunt button and loses!
+- **[Plugin] Updated localization files**
+
 ### December 7, 2025
 - **[Plugin] Added pre-2012 Sandvich revert variant**
-  - *Reverted to pre-2012, can heal self by throwing the Sandvich*
+	- *Reverted to pre-2012, can heal self by throwing the Sandvich*
 - **[Plugin] Updated localization files**
 
 ### December 3, 2025
