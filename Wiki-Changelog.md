@@ -31,6 +31,15 @@
 
 _**NOTE: [Plugin] means a change applied to the weapon reverts plugin itself. [Server] means a change applied to the Castaway.tf game servers. [Plugin/Server] means changes are applied to both.**_
 
+### December 19, 2025
+- **[Plugin] Added historically accurate variant for reverted Amputator. This variant does not give Uber when healing via the taunt.**
+- **[Plugin/Server] Huntsman taunt bug revert now uses a weapon revert cvar instead of a general cvar setting.**
+- **[Plugin] Code cleanup**
+- **[Plugin/Server] Updated localization files**
+
+### December 14, 2025
+- **[Plugin] Updated gamedata file for Windows. The plugin should work again in Windows servers.**
+
 ### December 10, 2025
 - **[Plugin/Server] Fixed the plugin not working properly due to the recent Smissmas update.**
 - **[Plugin/Server] Corrected Pre-Gun Mettle Dead Ringer cloak _armor_ duration from 6.5 s to 6.0 s (this does not affect the cloak time itself) (research done by num-get).**
