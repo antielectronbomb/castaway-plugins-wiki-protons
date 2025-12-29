@@ -1,0 +1,41 @@
+plugins by some stranger running the reverts plugin
+
+SourceMod 1.13.0.7244, by AlliedModders LLC
+To see running plugins, type "sm plugins"
+To see credits, type "sm credits"
+Visit https://www.sourcemod.net/
+
+ 
+ "TF2 Basic Kickvote Immunity" (1.2) by psychoninc
+ "TF2 Utils" (1.4.0) by nosoop
+ "NativeVotes MapChooser" (1.8.0 beta 1) by AlliedModders LLC and Powerlord
+ "[TF2] Arena Scramble" (1.1.0) by Powerlord
+ "Automatic Steam Update (SteamWorks)" (1.1) by Dr. McKay, Sarabveer(VEER™)
+ "[TF2] Vote Scramble" (1.5.1) by Nanochip, viora, raspy, random
+ "Anti-Flood" (1.13.0.7244) by AlliedModders LLC
+ "Player Commands" (1.13.0.7244) by AlliedModders LLC
+ "[TF2] Condition Manager" (1.0.0) by Scag
+ "Basic Chat" (1.13.0.7244) by AlliedModders LLC
+ "Source Scramble Manager" (1.2.0) by nosoop
+ "Basic Info Triggers" (1.13.0.7244) by AlliedModders LLC
+ "Reserved Slots" (1.13.0.7244) by AlliedModders LLC
+ "NativeVotes Map Nominations" (1.8.0 beta 4) by AlliedModders LLC and Powerlord
+ "Basic Votes" (1.13.0.7244) by AlliedModders LLC
+ "Admin File Reader" (1.13.0.7244) by AlliedModders LLC
+ "Client Preferences" (1.13.0.7244) by AlliedModders LLC
+ "Basic Commands" (1.13.0.7244) by AlliedModders LLC
+ "Fun Commands" (1.13.0.7244) by AlliedModders LLC
+ "[TF2] TF2Attributes" (1.7.5) by FlaminSarge
+ "Sound Commands" (1.13.0.7244) by AlliedModders LLC
+ "Admin Help" (1.13.0.7244) by AlliedModders LLC
+ "Admin Menu" (1.13.0.7244) by AlliedModders LLC
+ "NativeVotes Rock The Vote" (1.8.0 beta 1) by AlliedModders LLC and Powerlord
+ "Steph's AntiCheat [StAC]" (6.3.7) by https://sappho.io
+ "Fun Votes" (1.13.0.7244) by AlliedModders LLC
+ "Nextmap" (1.13.0.7244) by AlliedModders LLC
+ "Basic Comm Control" (1.13.0.7244) by AlliedModders LLC
+ "NativeVotes Basic Commands" (1.1) by Powerlord and AlliedModders LLC
+ "NativeVotes" (1.1.1fix) by Powerlord
+ "Advertisements" (2.1.2) by Tsunami
+ "SteamWorks Update Check" (1.0b) by Kyle Sanderson
+ "TF2 Weapon Reverts Extended" (2.0.0-linux32) by Bakugo, NotnHeavy, random, huutti, VerdiusArcana, MindfulProtons, EricZhang456
