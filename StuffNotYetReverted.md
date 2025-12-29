@@ -20,7 +20,7 @@ List of Potential Weapons to Revert:
 		this damn line is making things hard: https://github.com/ValveSoftware/source-sdk-2013/blob/68c8b82fdcb41b8ad5abde9fe1f0654254217b8e/src/game/shared/tf/tf_weapon_revolver.cpp#L107
 		OK first shots become normal dmg beyond 1200 hammer units ffs
 		also consecutive rapid fire headshots don't count towards the headshots point for some reason
-- ACTUALLY reverting Pomson and Bison to use flame particle hitbox
+- (OK, didn't need to use flame particle hitbox)ACTUALLY reverting Pomson and Bison to use flame particle hitbox
 - (OK) Pre-Gun Mettle Dalokohs Bar (can be eaten infinitely, no overheal, cannot be thrown)
 	- or was is the release version?
 - (OK) Release and pre-2010 Dead Ringer
@@ -30,7 +30,7 @@ List of Potential Weapons to Revert:
 - Pre-2008 Rocket Launcher
 - 2007 Medigun(?)
 - Pocket Pistol variants(?)
-- 2007 Sniper Rifle quickscope revert (likely mempatch)
+- (OK) 2007 Sniper Rifle quickscope revert (likely mempatch)
 - 2007 Stickybombs rampup(?)
 - (OK) Release Buff Banner (1000 dmg needed for 14 sec buff)(?)
 - (OK) Release Direct Hit
@@ -38,7 +38,7 @@ List of Potential Weapons to Revert:
 - (OK) Release Gunboats survives kamikaze taunt (see https://wiki.teamfortress.com/w/index.php?title=Grenade_(taunt)&oldid=91783)
 	- Video reference (64 self damage): https://www.youtube.com/watch?v=AFKThrW_VK4
 - (OK) Pre-Mann-Conomy Update Equalizer grenade taunt survivable when overhealed (self damage is 256; see https://wiki.teamfortress.com/w/index.php?title=Grenade_(taunt)&oldid=91783)
-- Pre-2008 Sniper Rifle 200ms Quickscope Revert
+- (OK) Pre-2008 Sniper Rifle 200ms Quickscope Revert
 
 Class Mechanics Reverts:
 - Pre-Gun Mettle Engineer Mechanics
