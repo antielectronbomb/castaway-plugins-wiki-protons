@@ -31,6 +31,22 @@
 
 _**NOTE: [Plugin] means a change applied to the weapon reverts plugin itself. [Server] means a change applied to the Castaway.tf game servers. [Plugin/Server] means changes are applied to both.**_
 
+### December 29, 2025
+- **[Server] Reverted for a trial period the Sandvich to pre-February 14, 2012, Blutsauger to release, Buff Banner to release, Equalizer/Escape Plan to pre-Hatless Update, Wrangler to pre-Love & War, and Rescue Ranger to pre-Tough Break.**
+- **[Plugin] Fixed reverted Shortstop autoreload bug for shoveless variants by forcing a reload whenever alt-fire is pressed.**
+- **[Plugin] Fixed reverted Ambassador long-range headshots not counting towards the headshot score. This only applies to every first headshot after the 1.0 s accuracy cooldown.**
+- **[Plugin] Fully reverted the projectile hitboxes for both the Pomson 6000 and Righteous Bison variants back to the original 48x48x48 hammer units sized projectile cube hitbox.**
+- **[Plugin] Edited the Release Pomson 6000 variant reverts info to include that it is supposed to fully drain the cloak meter of any Spy who is cloaked and/or disguised (does not fully drain against undisguised and uncloaked Spies), which was a historical bug. This means the full drain cloak bug is kept intentionally for historical accuracy.**
+- **[Plugin] Added pre-February 14, 2008 quickscope revert for all Sniper Rifles. All Sniper Rifles are able to instantly do quickscope critical hit headshots even if the headshot occurs in less than 0.2 seconds.**
+- **[Plugin] Added pre-Classless Update Sandman variant. Full stuns, can stun invulnerable players, stun victims receive 50% damage, no health penalty, no double jump, 15 sec ball recharge time.**
+- **[Plugin] Added pre-Manniversary Persian Persuader variant. Picks up ammo as health (including metal from dropped ammo, 120 HP per drop, this means more HP from dropped weapons and building gibs), +100% charge recharge rate, no max ammo penalty, and can gain ammo from dispensers/carts.**
+- **[Plugin] Cleaned up code**
+- **[Plugin] Updated localization files, updated cfgs**
+
+### December 25, 2025
+- **[Plugin] Use new attribute to adjust the Tomislav firing sound pitch while retaining the visual inspectpanel attributes.**
+- **[Plugin] Fixed being able to visually airblast (from the perspective of other players) right after spawning with the no-airblast variants of the Backburner.**
+
 ### December 19, 2025
 - **[Plugin] Added historically accurate variant for reverted Amputator. This variant does not give Uber when healing via the taunt.**
 - **[Plugin/Server] Huntsman taunt bug revert now uses a weapon revert cvar instead of a general cvar setting.**
