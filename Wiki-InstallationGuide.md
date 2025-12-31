@@ -10,8 +10,9 @@ An example of a server running the Extended Weapon Reverts plugin
 >	- [Source Dedicated Server](https://github.com/rsedxcftvgyhbujnkiqwe/castaway-plugins/wiki/Installing-the-Weapon-Reverts-Plugin#source-dedicated-server)
 >	- [MetaMod and SourceMod](https://github.com/rsedxcftvgyhbujnkiqwe/castaway-plugins/wiki/Installing-the-Weapon-Reverts-Plugin#metamod-and-sourcemod)
 >	- [Compiling](https://github.com/rsedxcftvgyhbujnkiqwe/castaway-plugins/wiki/Installing-the-Weapon-Reverts-Plugin#compiling)
-> - [See also](https://github.com/rsedxcftvgyhbujnkiqwe/castaway-plugins/wiki/Installing-the-Weapon-Reverts-Plugin#see-also)
+> - [Running the Server & Checking the Plugin](https://github.com/rsedxcftvgyhbujnkiqwe/castaway-plugins/wiki/Installing-the-Weapon-Reverts-Plugin#running-the-server--checking-the-plugin)
 > - [Additional Notes](https://github.com/rsedxcftvgyhbujnkiqwe/castaway-plugins/wiki/Installing-the-Weapon-Reverts-Plugin#additional-notes)
+> - [See also](https://github.com/rsedxcftvgyhbujnkiqwe/castaway-plugins/wiki/Installing-the-Weapon-Reverts-Plugin#see-also)
 
 ## Needed Files
 - 32 bit server/sourcemod - 64 bit not currently supported
@@ -31,6 +32,7 @@ An example of a server running the Extended Weapon Reverts plugin
 2. TF2 Wiki Dedicated Server Guide
 	- (Windows): https://wiki.teamfortress.com/wiki/Windows_dedicated_server
     - (Linux): https://wiki.teamfortress.com/wiki/Linux_dedicated_server
+3. If you want to set up your own full-time TF2 server for cheap: watch [this video](https://www.youtube.com/watch?v=_uiGbBVbB58) and read [this website](https://aarmastah.xyz/misc/tf2vps.php)
 
 ### MetaMod and SourceMod
 - SourceMod: https://www.sourcemod.net/downloads.php?branch=stable
@@ -51,12 +53,32 @@ https://youtu.be/QF7urRJIgrE
 - After that, you need to install the other dependencies. Installation is just a simple copy-paste, and there is no need for compiling their .sp files:
 	- TF2Items
 	- More Colors
-- Once you have the dependencies installed, you may proceed to run the pre-compiled plugin, or compile the reverts.sp plugin yourself. Compiling it yourself is recommended.
+- Once you have the dependencies installed, you have **2 (TWO)** methods to proceed: 
+	- **1.** [Run the pre-compiled plugin](https://github.com/rsedxcftvgyhbujnkiqwe/castaway-plugins/wiki/Installing-the-Weapon-Reverts-Plugin#method-1-pre-compiled)
+		- Recommended for the non-technically inclined
+	- **2.** [Compile the reverts.sp plugin yourself](https://github.com/rsedxcftvgyhbujnkiqwe/castaway-plugins/wiki/Installing-the-Weapon-Reverts-Plugin#method-2-self-compiled)
+		- Compiling it yourself is recommended for more control.
 
-#### Pre-compiled
-- See Actions page, click the latest workflow (topmost), go to Artifacts, download either 1.12 or 1.13 depending on what SourceMod version you have.
+#### **Method 1. Pre-compiled**
+- Go to the [Releases page](https://github.com/rsedxcftvgyhbujnkiqwe/castaway-plugins/releases), click the latest build (topmost), go to Assets, download either package-1.12/1.13.zip depending on what SourceMod version you have.
+	- For the most up-to-date releases, go to [Actions](https://github.com/rsedxcftvgyhbujnkiqwe/castaway-plugins/actions), go to All workflows, check the topmost run **with the `master` tag**, then under Artifacts pick either package-1.12 or package-1.13 
+ 		- NOTE: do not click right away the top most link without the `master` tag, since it is likely an untested (and buggy) version of the plugin
+- Extract the contents to `tf\addons\sourcemod`.
+- Go to `tf\addons\sourcemod\plugins`
+- Check what OS you use (Linux or Windows). 
+	- Inside the `plugins` folder, you will see three files: `reverts.smx`, `reverts-patchless.smx`, and `reverts-win32.smx`.
+	- These are basically three (3) copies of the compiled extended weapon reverts plugin.
+	- Move `reverts-patchless.smx` and `reverts-win32.smx` to `tf\addons\sourcemod\plugins\disabled`. These two files may be used later in case you have problems with the plugin.
+	- Make sure only `reverts.smx` is left in `tf\addons\sourcemod\plugins`. The other two copies should be in the disabled folder.
+		- If you do not move the duplicate copies to the disabled folder, you *WILL* run into bugs and problems with the reverts plugin, like the Concheror and Amputator reverts not functioning correctly.
+		- If your **server** is hosted and running on a Windows system and you run into any issues, use `reverts-win32.smx` instead of `reverts.smx`.
+	- Once that's done, you may run the server as normal. Go to [Running the Server & Checking the Plugin](https://github.com/rsedxcftvgyhbujnkiqwe/castaway-plugins/wiki/Installing-the-Weapon-Reverts-Plugin#running-the-server--checking-the-plugin).
+- If there are issues with memory patches, such as the Sandvich revert not working properly, replace it with the no memory patch version of the plugin:
+	- Move `reverts.smx` to `plugins\disabled` folder
+	- Move `reverts-patchless.smx` back to `plugins` folder.
+- For advanced users, use this option so that your server always updates the plugin whenever the GitHub repository gets updates.
 
-#### Manual compiling
+#### **Method 2. Self-compiled**
 - For the Castaway version, you will need to manually compile the reverts.sp file into reverts.smx using the built-in SourceMod compiler program. 
 	- You can compile plugins in Windows by pressing right-click in the Explorer and opening CMD, then typing `spcomp WIN32= reverts.sp`. 
 	- For Linux, I am assuming you know how to do this.
@@ -117,3 +139,5 @@ https://youtu.be/QF7urRJIgrE
 
 ## See also
 - [Useful Links on Running the Reverts Plugin in Your Own Server](https://github.com/rsedxcftvgyhbujnkiqwe/castaway-plugins/wiki/Useful-Links-on-How-to-Run-TF2-Weapon-Reverts-in-Your-Own-Server)
+- [Run Your Own Custom TF2 Server for CHEAP! (talks about setting up a 24/7 server)](https://www.youtube.com/watch?v=_uiGbBVbB58)
+	- [Written guide used in conjunction with the video](https://aarmastah.xyz/misc/tf2vps.php)
