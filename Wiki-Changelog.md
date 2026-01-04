@@ -6,6 +6,9 @@
 >
 > **Specific dates can be selected by expanding the Pages box on the right side of the screen.**
 >
+> **2026**
+> * [January 2026](https://github.com/rsedxcftvgyhbujnkiqwe/castaway-plugins/wiki/Weapon-Reverts-Changelog#january-4-2026)
+>
 > **2025**
 > * [December 2025](https://github.com/rsedxcftvgyhbujnkiqwe/castaway-plugins/wiki/Weapon-Reverts-Changelog#december-2-2025)
 > * [November 2025](https://github.com/rsedxcftvgyhbujnkiqwe/castaway-plugins/wiki/Weapon-Reverts-Changelog#november-4-2025)
@@ -30,6 +33,12 @@
 ## Changelog
 
 _**NOTE: [Plugin] means a change applied to the weapon reverts plugin itself. [Server] means a change applied to the Castaway.tf game servers. [Plugin/Server] means changes are applied to both.**_
+
+### January 4, 2026
+- **[Plugin] Buffalo Steak Variants except for the base pre-Meet your Match version now gives the throwing Heavy health instead of ammo just like the Sandvich reverts.**
+- **[Plugin] Added Pre-Gun Mettle Bazaar Bargain imported from NotnHeavy's plugin.**
+	- Reverted to pre-gunmettle, heads only require headshots (kills not required), -20% base charge rate, +7.5% charge rate per head up to +45%, lose heads on scoped bodyshots/misses
+- **[Plugin/Server] Updated localization files**
 
 ### December 29, 2025
 - **[Server] Reverted for a trial period the Sandvich to pre-February 14, 2012, Blutsauger to release, Buff Banner to release, Equalizer/Escape Plan to pre-Hatless Update, Wrangler to pre-Love & War, and Rescue Ranger to pre-Tough Break.**
