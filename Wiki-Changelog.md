@@ -34,6 +34,24 @@
 
 _**NOTE: [Plugin] means a change applied to the weapon reverts plugin itself. [Server] means a change applied to the Castaway.tf game servers. [Plugin/Server] means changes are applied to both.**_
 
+### January 10, 2026
+- **[Plugin] Added Pre-July 2011 Buffalo Steak Sandvich variant with no cooldown at full health and weapon switching and also reverted the no cooldown mechanic to pre-2011 Steak variants.**
+	- Replaces the pre-February 14, 2012 variant with the pre-Manniversary variant which is the same but has the no cooldown at full health bug.
+	- Added new variant (variant 3): Pre-July 7, 2011 variant which is essentially just the pre-Manniversary variant but you are able to switch weapons while under the effects of the Steak.
+    - Adds Pre-July 2011 Steak variant that allowed weapon switching, sources below
+		- https://www.youtube.com/watch?v=Zc7Gj_xOQRo
+		- https://www.youtube.com/watch?v=RxgHWpkoseI
+		- https://www.youtube.com/watch?v=7FKAqUXYGM8
+		- https://www.youtube.com/watch?v=7eGEnF884Rk
+		- https://www.youtube.com/watch?v=UXHFcIMQ4H0
+- **[Plugin] Added Spycicle revert variant which is essentially just the pre-Gun Mettle version but it uses the Fencing taunt attack whenever the Spy uses the default taunt.**
+	- Reverted to pre-December 23, 2011, fire immunity for 2s, silent killer, cannot regenerate from ammo sources, taunting uses the Fencing taunt attack
+- **[Plugin] Optimized and tweaked code for certain reverts and various code improvements**
+	- Relevant reverts for this: Wrangler, Crit-a-Cola, Buffalo Steak Sandvich, Short Circuit, Gunslinger and Bazaar Bargain
+- **[Plugin] Made a patchless version for the Gunslinger**
+- **[Plugin] Fixed bug with reverted Bazaar Bargain having an uncapped charge rate increase beyond 6 heads.**
+- **[Plugin/Server] Updated localization files**
+
 ### January 4, 2026
 - **[Plugin] Buffalo Steak Variants except for the base pre-Meet your Match version now gives the throwing Heavy health instead of ammo just like the Sandvich reverts.**
 - **[Plugin] Added Pre-Gun Mettle Bazaar Bargain imported from NotnHeavy's plugin.**
