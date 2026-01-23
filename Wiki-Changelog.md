@@ -27,12 +27,30 @@
 > * [December 2024](https://github.com/rsedxcftvgyhbujnkiqwe/castaway-plugins/wiki/Weapon-Reverts-Changelog#december-12-2024)
 > * [November 2024](https://github.com/rsedxcftvgyhbujnkiqwe/castaway-plugins/wiki/Weapon-Reverts-Changelog#november-11-2024)
 > * [October 2024](https://github.com/rsedxcftvgyhbujnkiqwe/castaway-plugins/wiki/Weapon-Reverts-Changelog#october-10-2024)
+> * [June 2024](https://github.com/rsedxcftvgyhbujnkiqwe/castaway-plugins/wiki/Weapon-Reverts-Changelog#june-12-2024)
 >
 > **[See also](https://github.com/rsedxcftvgyhbujnkiqwe/castaway-plugins/wiki/Weapon-Reverts-Changelog#see-also)**
 
 ## Changelog
 
 _**NOTE: [Plugin] means a change applied to the weapon reverts plugin itself. [Server] means a change applied to the Castaway.tf game servers. [Plugin/Server] means changes are applied to both.**_
+
+### January 23, 2026
+- **[Plugin] Did [various fixes](https://github.com/rsedxcftvgyhbujnkiqwe/castaway-plugins/pull/379) and code refactoring**
+	- Relevant reverts: Sandman, Natascha, Shortstop
+- **[Plugin] Added pre-December 17, 2010 Natascha Variant**
+	- Reverted to pre-December 17, 2010; full slowdown at any distance, no increased spin up time, no damage resistance when spun up
+
+### January 18, 2026
+- **[Plugin] Added pre-Tough Break Vaccinator Variant**
+  - *Reverted to pre-toughbreak, +50% Uber rate, -66% Uber rate on overhealed patients, you are healed for 10% of the matched incoming damage on patient*
+- **[Plugin] Added pre-Pyromania Bonk variant**
+  - *Reverted to pre-pyromania, no post-effect slowdown, effect lasts 6 seconds*
+- **[Plugin] Minigun ramp-up revert is now fully patchless**
+- **[Plugin] Old-style Dead Ringer does not reduce debuff duration**
+- **[Plugin] Code refactoring**
+	- Relevant reverts: Dead Ringer, Spy-cicle, Buff Banner, Phlogistinator, Grenade Launchers, Stickybomb Launchers, Swords, Gunslinger
+- **[Plugin] Renamed pre-2011 Spy-cicle to release Spy-cicle**
 
 ### January 10, 2026
 - **[Plugin] Added Pre-July 2011 Buffalo Steak Sandvich variant with no cooldown at full health and weapon switching and also reverted the no cooldown mechanic to pre-2011 Steak variants.**
@@ -1028,6 +1046,10 @@ _**NOTE: [Plugin] means a change applied to the weapon reverts plugin itself. [S
 
 ### October 10, 2024
 - **Some Castaway.tf servers now uses the blanket Pre-Gun Mettle reverts plugin made by NotnHeavy.**
+
+### June 12, 2024
+- **Castaway.tf was created in the [/tf2g/](https://arch.b4k.dev/vg/thread/481535743/#481553256) sub-board in /vg/ as a response to the lack of community servers. The servers were originally vanilla-only (no reverts).**
+- **[Castaway.tf's journey](https://arch.b4k.dev/vg/thread/513276881/#513421707)**
 
 ## See also
 [Back to top](https://github.com/rsedxcftvgyhbujnkiqwe/castaway-plugins/wiki/Weapon-Reverts-Changelog#contents)
