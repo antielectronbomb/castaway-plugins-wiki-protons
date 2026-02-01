@@ -7,6 +7,7 @@
 > **Specific dates can be selected by expanding the Pages box on the right side of the screen.**
 >
 > **2026**
+> * [February 2026](https://github.com/rsedxcftvgyhbujnkiqwe/castaway-plugins/wiki/Weapon-Reverts-Changelog#february-1-2026)
 > * [January 2026](https://github.com/rsedxcftvgyhbujnkiqwe/castaway-plugins/wiki/Weapon-Reverts-Changelog#january-4-2026)
 >
 > **2025**
@@ -34,6 +35,20 @@
 ## Changelog
 
 _**NOTE: [Plugin] means a change applied to the weapon reverts plugin itself. [Server] means a change applied to the Castaway.tf game servers. [Plugin/Server] means changes are applied to both.**_
+
+### February 1, 2026
+- **[Plugin] Updated post-Gun Mettle Dalokohs Bar to not require a memory patch revert.**
+- **[Plugin] Updated localization files, updated cfg files.**
+
+### January 30, 2026
+- **[Plugin] Added pre-Gun Mettle Vaccinator variant**
+  - *Pre-GM: full crit base resist, bubbles gone when cut off, no overhealed Uber rate penalties, no Uber rate penalty from multiple healers, only 1 resist on patient, 25% HP regen on proper resist, +50% Uber rate, -66% overheal build rate*
+
+### January 25, 2026
+- **[Plugin] Added the remaining Polycount item set bonus reverts for Medic (Medieval Medic) and Soldier (Tank Buster).**
+   - Medieval Medic - Restored release item set bonus, +1 health regenerated per second on wearer. Equip the Crusader's Crossbow and Amputator to gain the bonus, the hat is not required
+   - Tank Buster - Restored release item set bonus, +20% sentry damage resist on wearer. Equip the Black Box and Battalion's Backup to gain the bonus, the hat is not required
+- **[Plugin] Updated localization files and code.**
 
 ### January 23, 2026
 - **[Plugin] Did [various fixes](https://github.com/rsedxcftvgyhbujnkiqwe/castaway-plugins/pull/379) and code refactoring**
