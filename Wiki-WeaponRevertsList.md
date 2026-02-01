@@ -1,4 +1,5 @@
-[![Weapon Reverts Plugin](https://github.com/user-attachments/assets/e010c79e-ebe2-41fb-838e-6398b9de5a6b)](https://www.youtube.com/watch?v=HWenueVOXZ0)
+[![Weapon Reverts Plugin](https://github.com/user-attachments/assets/d4739a11-6908-472f-a1a2-b5b0a6935e9c)](https://www.youtube.com/watch?v=HWenueVOXZ0)
+
 (Clicking on the image leads to the Weapon Reverts YouTube Video)
 
 **CTRL+F IS YOUR FRIEND! Use it!**
