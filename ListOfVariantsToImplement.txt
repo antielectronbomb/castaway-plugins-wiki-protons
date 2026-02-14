@@ -1,0 +1,31 @@
+weapons that need more variants:
+
+Air Strike (Pre-Gun Mettle)
+
+Amputator (Release)
+
+B.A.S.E. Jumper (Pre-Inferno)
+
+Bazaar Bargain (Release)
+
+Booties & Bootlegger (Release)
+Booties & Bootlegger (Pre-Gun Mettle)
+
+Brass Beast (Release) (ignoring the blanket minigun nerfs/buffs)
+
+Buffalo Steak Sandvich (Pre-Inferno) (+25% dmg vuln, the seconds are likely cosmetic)
+
+Chargin' Targe (Jun 23, 2011 - Jul 10, 2013) (no afterburn immunity, Uber Update ver)
+Chargin' Targe (Dec 17, 2010 - Jun 23, 2011) (no afterburn immunity, can't charge mid-air, airblast fully depletes charge when charging, +left/+right full turn control exploit)
+Chargin' Targe (Apr 28, 2010 - Dec 17, 2010) (protects against own blast dmg, no afterburn immunity, can't charge mid-air, airblast fully depletes charge when charging, +left/+right full turn control exploit)
+Chargin' Targe (Jan 13, 2010 - Apr 28, 2010) (50% blast dmg resist, protects against own blast dmg, no afterburn immunity, can't charge mid-air, airblast fully depletes charge when charging, +left/+right full turn control exploit)
+Chargin' Targe (Release) (Dec 17, 2009 - Jan 13, 2010) (65% blast dmg resist, protects against own blast dmg, no afterburn immunity, can't charge mid-air, airblast fully depletes charge when charging, +left/+right full turn control exploit)
+
+Claidheamh Mor (the April 14 to 15, 2011 no crit to -25% dmg incident)
+Claidheamh Mor (pre-Dec 22, 2014 Smissmas 2014) (no +25% charge on charge kill)
+Claidheamh Mor (Pre-Inferno) (+25 hp on kill, no 0.5 s charge duration increase)
+
+Concheror (Jul 10, 2013 - Dec 20, 2013) (no +2hp/s passive)
+Concheror (Jun 27, 2012 - Jul 10, 2013) (no +2hp/s passive, no speedboost buff players bonus)
+Concheror (Apr 14, 2011 - Jun 27, 2012) (-25% less rage rate increase, no +2hp/s passive, no speedboost buff players bonus, rage building source is damage done AND damage received)
+Concheror (Release) (Mar 10, 2011 - Apr 14, 2011) (no 35% increase for dmg to health conversion, no 25% rage rate increase, no +2hp/s passive, no speedboost buff players bonus, rage building source is damage done AND damage received)
