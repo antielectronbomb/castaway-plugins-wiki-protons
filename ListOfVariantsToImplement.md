@@ -47,6 +47,7 @@ Count: 70
 - [ ] Disciplinary Action (Pre-Pyromania) (Jul 1, 2011 - Jun 27, 2012) (did not fully boost Scout - speed caps at Scout speed)
 - [ ] Dragon's Fury (Day 0 Release) (Oct 20, 2017 - Oct 25, 2017) (no +20 hp when extinguishing a teammate)
 - [ ] Enforcer (Jul 2, 2015 - Jul 7, 2016) (Pre-Meet Your Match) (no resist piercing bonus)
+- [ ] Equalizer & Escape Plan (Post merge versions)
 - [ ] Eureka Effect (Pre-MyM) (Aug 27, 2015 - Jul 7, 2016) (50% less metal from Dispensers and Pickups, no teleporter less metal bonus)
 - [ ] Eureka Effect (Jul 2, 2015 - Aug 27, 2015) (replenishes ammo and hp when teleporting, 50% less metal from Dispensers and Pickups, no teleporter less metal bonus)
 - [ ] Eureka Effect (Pre-GM) (Jun 11, 2014 - Jul 2, 2015) (replenishes ammo and hp when teleporting, Repair and upgrade rates have been decreased (by 50%; now requires double the metal to complete either task). Can teleport to your spawn room or your Teleporter Exit)
