@@ -80,4 +80,13 @@ Count: 70
 - [ ] Quickiebomb Launcher (Jul 2, 2015 - Dec 17, 2015) (2 s fizzle time)
 - [ ] Quickiebomb Launcher (Release/Pre-GM) (Dec 22, 2014 - Jul 2, 2015) (2 s fizzle time, no charge based dmg amount)
 
+
+- [ ] 
+- [ ] Tomislav (Pre-Gun Mettle) (Jun 18, 2014 - Jul 2, 2015) (lower pitched sounds and 10% spin up speed)
+- [ ] Tide Turner (Pre-Gun Mettle) (Dec 22, 2014 - Jul 2, 2015)
+- [ ] Thermal Thruster (Jungle Inferno) (Oct 20, 2017 - Mar 28, 2018)
+- [ ] Ullapool Caber (Pre-Tough Break) (Jul 2, 2015 - Dec 17, 2015) (no fire rate penalty and no switch to time penalty)
+- [ ] Vaccinator (Release) (Dec 20, 2012 - Jul 10, 2013)
+- [ ] Wrangler (Release) (Jul 8, 2010 - Jul 10, 2013) (accuracy and 3 sec shield duration when owner dies)
+- [ ] Warrior's Spirit (Pre-GM) (Dec 17, 2010 - Jul 2, 2015) (no +10 hp on hit)
 ...still under construction...
