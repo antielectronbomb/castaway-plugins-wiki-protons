@@ -6,7 +6,7 @@ This list only includes weapons that are currently in the plugin.
 **WEAPONS CURRENTLY IN THE PLUGIN THAT HAS MORE HISTORICAL VARIANTS**
 *(this does not include weapons that are not included yet in the plugin (e.g. Diamondback, Fan O'War))*
 
-Count: 70
+Count: 98
 
 - [ ] Air Strike (Pre-Gun Mettle)
 - [ ] Amputator (Release)
@@ -80,10 +80,25 @@ Count: 70
 - [ ] Quickiebomb Launcher (Jul 2, 2015 - Dec 17, 2015) (2 s fizzle time)
 - [ ] Quickiebomb Launcher (Release/Pre-GM) (Dec 22, 2014 - Jul 2, 2015) (2 s fizzle time, no charge based dmg amount)
 - [ ] Razorback (Release) (May 21, 2009 - Jun 23, 2009) (same as pre-inferno but -15% movement speed penalty)
-- [ ] 
-
-
-- [ ] 
+- [ ] Righteous Bison (Pre-Meet your Match/Tough Break) (Dec 17, 2015 - Jul 7, 2016) (not listed in the Wiki, but the damage mechanics were different. see https://wiki.teamfortress.com/w/index.php?title=Righteous_Bison&oldid=2015265)
+- [ ] Righteous Bison (Pre-Inferno) (Jul 7, 2016 - Oct 20, 2017) (dear god. just look at the wiki stats. https://wiki.teamfortress.com/w/index.php?title=Righteous_Bison&oldid=2272185)
+- [ ] Sandman (Release) (Feb 24, 2009 - Feb 25, 2009)
+- [ ] Sandman (Post-Release) (Feb 25, 2009 - Mar 13, 2009)
+- [ ] Sandvich (Release) (Aug 19, 2008 - Feb 25, 2009) (cannot be thrown)
+- [ ] Sandvich (Post-Release) (Feb 25, 2009 - Sep 15, 2009)
+- [ ] Scorch Shot (Pre-Gun Mettle/Release) (Jun 27, 2012 - Jul 2, 2015)
+- [ ] Short Circuit (Release/Pre-Summer 2013) (Aug 18, 2011 - Jul 10, 2013)
+- [ ] Short Circuit (Pre-Smissmas 2013) (Jul 10, 2013 - Dec 20, 2013)
+- [ ] Short Circuit (Pre-Blue Moon) (Jul 7, 2016 - Mar 28, 2018)
+- [ ] Short Circuit (Day 0 Blue Moon) (Mar 28, 2018 - Mar 29, 2018)
+- [ ] Shortstop (Pre-Summer 2013) (Oct 13, 2011 - Jul 10, 2013) (dec 17 2010 version but slower reload)
+- [ ] Shortstop (Summer 2013) (Jul 10, 2013 - Feb 7, 2014) (added 20% healing bonus and 80% push force penalty)
+- [ ] Soda Popper (Release) (Jun 23, 2011 - UNKNOWN) (8 sec hype duration (current duration is 10 sec))
+- [ ] Soda Popper (Smissmas 2013) (Dec 20, 2013 - Feb 7, 2014) (random crits)
+- [ ] Sticky Jumper (Day 0 Release) (Oct 27, 2010 - Oct 28, 2010) (damages enemies, multiplies grenade launcher carried ammo instead of the sticky jumper's)
+- [ ] Sydney Sleeper (Pre-Apr 14, 2011) (Oct 6, 2010 - Apr 14, 2011) (release but has no bugs)
+- [ ] Sydney Sleeper (Pre-February 11, 2014) (Apr 14, 2011  - Feb 11, 2014) (jarate charge scale duration thing, jarate ubered players)
+- [ ] Sydney Sleeper (Pre-Matchmaking) (Jul 2, 2015 - Jul 7, 2016) (jarate charge scale duration thing)
 - [ ] Tomislav (Pre-Gun Mettle) (Jun 18, 2014 - Jul 2, 2015) (lower pitched sounds and 10% spin up speed)
 - [ ] Tide Turner (Pre-Gun Mettle) (Dec 22, 2014 - Jul 2, 2015)
 - [ ] Thermal Thruster (Jungle Inferno) (Oct 20, 2017 - Mar 28, 2018)
@@ -91,4 +106,3 @@ Count: 70
 - [ ] Vaccinator (Release) (Dec 20, 2012 - Jul 10, 2013)
 - [ ] Wrangler (Release) (Jul 8, 2010 - Jul 10, 2013) (accuracy and 3 sec shield duration when owner dies)
 - [ ] Warrior's Spirit (Pre-GM) (Dec 17, 2010 - Jul 2, 2015) (no +10 hp on hit)
-...still under construction...
