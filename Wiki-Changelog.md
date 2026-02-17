@@ -36,6 +36,12 @@
 
 _**NOTE: [Plugin] means a change applied to the weapon reverts plugin itself. [Server] means a change applied to the Castaway.tf game servers. [Plugin/Server] means changes are applied to both.**_
 
+### February 17, 2026
+- **[Plugin] Added revert to be able to detonate stickybombs as Demoman while taunting.**
+- **[Plugin] Added more Pretty Boy's Pocket Pistol Variants (Pre-Jungle Inferno, Pre-Tough Break)**
+- **[Plugin] Offsetted reverted Short Circuit particle origin**
+- **[Plugin] Updated localization files**
+
 ### February 1, 2026
 - **[Plugin] Updated post-Gun Mettle Dalokohs Bar to not require a memory patch revert.**
 - **[Plugin] Updated localization files, updated cfg files.**
