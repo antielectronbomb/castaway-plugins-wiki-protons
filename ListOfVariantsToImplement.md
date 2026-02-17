@@ -79,6 +79,8 @@ Count: 70
 - [ ] Quick-Fix (Pre-Release) (Dec 23, 2010 - Jun 23, 2011) (no 50% overheal, 40% ubercharge rate)
 - [ ] Quickiebomb Launcher (Jul 2, 2015 - Dec 17, 2015) (2 s fizzle time)
 - [ ] Quickiebomb Launcher (Release/Pre-GM) (Dec 22, 2014 - Jul 2, 2015) (2 s fizzle time, no charge based dmg amount)
+- [ ] Razorback (Release) (May 21, 2009 - Jun 23, 2009) (same as pre-inferno but -15% movement speed penalty)
+- [ ] 
 
 
 - [ ] 
